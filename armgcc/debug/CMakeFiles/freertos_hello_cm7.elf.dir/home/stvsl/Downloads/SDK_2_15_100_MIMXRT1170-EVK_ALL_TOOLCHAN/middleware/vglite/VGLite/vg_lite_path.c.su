@@ -1,0 +1,6 @@
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/VGLite/vg_lite_path.c:36:17:vg_lite_upload_path	112	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/VGLite/vg_lite_path.c:82:16:get_data_count	16	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/VGLite/vg_lite_path.c:113:13:compute_pathbounds	32	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/VGLite/vg_lite_path.c:136:16:get_data_size	24	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/VGLite/vg_lite_path.c:161:9:vg_lite_path_calc_length	40	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/VGLite/vg_lite_path.c:183:17:vg_lite_path_append	128	static

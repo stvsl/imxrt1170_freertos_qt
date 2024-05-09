@@ -1,0 +1,11 @@
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/CMSIS/Core/Include/./core_cm7.h:1911:22:__NVIC_EnableIRQ	16	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/CMSIS/Core/Include/./core_cm7.h:2041:22:__NVIC_SetPriority	16	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/./fsl_clock.h:2071:24:CLOCK_GetRootClockMux	16	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/./fsl_clock.h:2112:24:CLOCK_GetRootClockDiv	16	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/./fsl_clock.h:2157:20:CLOCK_SetRootClock	16	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/./fsl_clock.h:2178:20:CLOCK_ControlGate	16	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/./fsl_clock.h:2197:20:CLOCK_EnableClock	16	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/./fsl_clock.h:2240:24:CLOCK_GetRootClockFreq	32	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/./fsl_common_arm.h:570:24:EnableIRQ	24	static
+/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/boards/nxp/mimxrt1170-evkb-freertos/display/vglitecontroller.c:40:17:BOARD_InitVGliteClock	16	static
+/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/boards/nxp/mimxrt1170-evkb-freertos/display/vglitecontroller.c:61:10:BOARD_PrepareVGLiteController	16	static

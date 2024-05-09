@@ -1,0 +1,25 @@
+/home/stvsl/Qt/QtMCUs/2.7.0/include/platforminterface/size.h:73:8:Qul::PlatformInterface::Size::Size()	16	static
+/home/stvsl/Qt/QtMCUs/2.7.0/include/platforminterface/size.h:78:8:Qul::PlatformInterface::Size::Size(Qul::PlatformInterface::coord_t, Qul::PlatformInterface::coord_t)	16	static
+/home/stvsl/Qt/QtMCUs/2.7.0/include/platforminterface/rgba32.h:34:12:Qul::PlatformInterface::Rgba32::Rgba32(uint32_t)	16	static
+/home/stvsl/Qt/QtMCUs/2.7.0/include/platforminterface/screen.h:42:5:Qul::PlatformInterface::Screen::Screen(const Qul::PlatformInterface::Size&, const Qul::PixelFormat&, const char*, bool, const Qul::PlatformInterface::Size&)	24	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/CMSIS/Core/Include/./core_cm7.h:1911:22:void __NVIC_EnableIRQ(IRQn_Type)	16	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/CMSIS/Core/Include/./core_cm7.h:2002:22:void __NVIC_ClearPendingIRQ(IRQn_Type)	16	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/CMSIS/Core/Include/./core_cm7.h:2041:22:void __NVIC_SetPriority(IRQn_Type, uint32_t)	16	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/./fsl_clock.h:2071:24:uint32_t CLOCK_GetRootClockMux(clock_root_t)	16	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/./fsl_clock.h:2112:24:uint32_t CLOCK_GetRootClockDiv(clock_root_t)	16	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/./fsl_clock.h:2157:20:void CLOCK_SetRootClock(clock_root_t, const clock_root_config_t*)	16	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/./fsl_clock.h:2178:20:void CLOCK_ControlGate(clock_lpcg_t, clock_gate_value_t)	16	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/./fsl_clock.h:2197:20:void CLOCK_EnableClock(clock_lpcg_t)	16	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/./fsl_clock.h:2240:24:uint32_t CLOCK_GetRootClockFreq(clock_root_t)	32	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/./fsl_common_arm.h:570:24:status_t EnableIRQ(IRQn_Type)	24	static
+/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/boards/nxp/mimxrt1170-evkb-freertos/display/platform_display.cpp:145:17:status_t Qul::Platform::Private::verifyDisplayClockSource()	16	static
+/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/boards/nxp/mimxrt1170-evkb-freertos/display/platform_display.cpp:169:13:void Qul::Platform::Private::pullResetPin(bool)	16	static
+/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/boards/nxp/mimxrt1170-evkb-freertos/display/platform_display.cpp:182:13:void Qul::Platform::Private::pullPowerPin(bool)	16	static
+/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/boards/nxp/mimxrt1170-evkb-freertos/display/platform_display.cpp:194:17:status_t Qul::Platform::Private::dsiTransfer(dsi_transfer_t*)	16	static
+/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/boards/nxp/mimxrt1170-evkb-freertos/display/platform_display.cpp:254:13:void Qul::Platform::Private::initLcdifClock()	16	static
+/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/boards/nxp/mimxrt1170-evkb-freertos/display/platform_display.cpp:279:17:status_t Qul::Platform::Private::initLcdPanel()	48	static
+/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/boards/nxp/mimxrt1170-evkb-freertos/display/platform_display.cpp:317:13:void Qul::Platform::Private::initMipiDsiClock()	32	static
+/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/boards/nxp/mimxrt1170-evkb-freertos/display/platform_display.cpp:356:13:void Qul::Platform::Private::setMipiDsiConfig()	88	static
+/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/boards/nxp/mimxrt1170-evkb-freertos/display/platform_display.cpp:415:17:status_t Qul::Platform::Private::initDisplayInterface()	8	static
+/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/boards/nxp/mimxrt1170-evkb-freertos/display/platform_display.cpp:447:6:void Qul::Platform::Private::prepareDisplayController()	16	static
+/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/boards/nxp/mimxrt1170-evkb-freertos/display/platform_display.cpp:468:28:Qul::PlatformInterface::Screen* Qul::Platform::Private::availableScreens(size_t*)	32	static

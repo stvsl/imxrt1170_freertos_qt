@@ -1,0 +1,5 @@
+/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/common/freertos/mem-freertos-default.cpp:28:6:void Qul::Platform::printHeapStats()	8	static
+/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/common/freertos/mem-freertos-default.cpp:33:6:void Qul::Platform::printStackStats()	8	static
+/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/common/freertos/mem-freertos-default.cpp:38:7:void* Qul::Platform::qul_malloc(std::size_t)	16	static
+/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/common/freertos/mem-freertos-default.cpp:43:6:void Qul::Platform::qul_free(void*)	16	static
+/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/common/freertos/mem-freertos-default.cpp:48:7:void* Qul::Platform::qul_realloc(void*, size_t)	16	static

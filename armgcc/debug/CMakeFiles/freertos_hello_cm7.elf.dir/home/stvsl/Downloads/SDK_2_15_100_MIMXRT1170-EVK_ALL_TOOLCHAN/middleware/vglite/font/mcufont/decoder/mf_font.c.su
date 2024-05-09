@@ -1,0 +1,7 @@
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/mcufont/decoder/mf_font.c:11:9:mf_render_character	48	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/mcufont/decoder/mf_font.c:29:9:mf_character_width	24	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/mcufont/decoder/mf_font.c:49:13:whitespace_callback	24	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/mcufont/decoder/mf_font.c:63:16:mf_character_whitespace	40	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/mcufont/decoder/mf_font.c:89:13:strequals	16	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/mcufont/decoder/mf_font.c:99:25:mf_find_font	24	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/mcufont/decoder/mf_font.c:118:30:mf_get_font_list	4	static

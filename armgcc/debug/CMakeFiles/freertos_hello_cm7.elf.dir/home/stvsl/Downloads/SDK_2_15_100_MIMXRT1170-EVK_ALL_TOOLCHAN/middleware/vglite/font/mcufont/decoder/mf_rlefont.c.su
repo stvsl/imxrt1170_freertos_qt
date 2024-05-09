@@ -1,0 +1,11 @@
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/mcufont/decoder/mf_rlefont.c:29:23:find_glyph	32	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/mcufont/decoder/mf_rlefont.c:63:13:write_pixels	40	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/mcufont/decoder/mf_rlefont.c:87:13:skip_pixels	16	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/mcufont/decoder/mf_rlefont.c:98:13:write_rle_dictentry	40	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/mcufont/decoder/mf_rlefont.c:132:16:fillentry_bitcount	16	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/mcufont/decoder/mf_rlefont.c:149:13:write_bin_codeword	32	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/mcufont/decoder/mf_rlefont.c:182:13:write_ref_codeword	24	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/mcufont/decoder/mf_rlefont.c:214:13:write_ref_dictentry	32	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/mcufont/decoder/mf_rlefont.c:230:13:write_glyph_codeword	24	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/mcufont/decoder/mf_rlefont.c:246:9:mf_rlefont_render_character	56	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/mcufont/decoder/mf_rlefont.c:277:9:mf_rlefont_character_width	24	static

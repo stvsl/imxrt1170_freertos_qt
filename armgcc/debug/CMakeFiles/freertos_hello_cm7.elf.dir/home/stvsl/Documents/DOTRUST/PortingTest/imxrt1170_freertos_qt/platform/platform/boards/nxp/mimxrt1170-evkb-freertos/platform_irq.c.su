@@ -1,0 +1,6 @@
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/CMSIS/Core/Include/./core_cm7.h:2041:22:__NVIC_SetPriority	16	static
+/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/boards/nxp/mimxrt1170-evkb-freertos/platform_irq.c:44:6:setInterruptPriorities	8	static
+/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/boards/nxp/mimxrt1170-evkb-freertos/platform_irq.c:56:28:QUL_LCDIFv2_IRQHandler	8	static
+/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/boards/nxp/mimxrt1170-evkb-freertos/platform_irq.c:60:6:LCDIFv2_IRQHandler	8	static
+/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/boards/nxp/mimxrt1170-evkb-freertos/platform_irq.c:62:6:GPIO2_Combined_16_31_IRQHandler	8	static
+/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/boards/nxp/mimxrt1170-evkb-freertos/platform_irq.c:64:6:GPU2D_IRQHandler	8	static

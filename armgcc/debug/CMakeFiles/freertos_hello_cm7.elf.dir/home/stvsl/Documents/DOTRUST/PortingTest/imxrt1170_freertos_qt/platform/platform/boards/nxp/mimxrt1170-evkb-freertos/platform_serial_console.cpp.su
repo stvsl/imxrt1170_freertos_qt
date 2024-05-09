@@ -1,0 +1,36 @@
+/home/stvsl/.mcuxpressotools/arm-gnu-toolchain-12.3.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/c++/12.3.1/new:174:33:void* operator new(std::size_t, void*)	16	static
+/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/property.h:121:10:void Qul::Private::DependencyNode::setPrev(Qul::Private::DependencyBase::NodePtr*)	16	static
+/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/property.h:134:17:Qul::Private::DependencyNode* Qul::Private::DependencyBase::asDependencyNode()	16	static
+/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/property.h:139:6:void Qul::Private::DependencyBase::setPrev(NodePtr*)	24	static
+/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/property.h:281:5:Qul::Private::PropertyBase::~PropertyBase()	32	static
+/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/property.h:353:34:Qul::Private::FlagPointer<Qul::Private::DependencyBase>& Qul::Private::PropertyBase::firstDependency()	16	static
+/home/stvsl/.mcuxpressotools/arm-gnu-toolchain-12.3.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/c++/12.3.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/property.h:594:29:Qul::Property<bool>::~Property()	16	static
+/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/property.h:594:29:Qul::Property<int>::~Property()	16	static
+/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/signal.h:96:8:Qul::Signal<void()>::~Signal()	16	static
+/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/boards/nxp/mimxrt1170-evkb-freertos/platform_serial_console.cpp:26:16:int _write(int, char*, int)	32	static
+/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/boards/nxp/mimxrt1170-evkb-freertos/platform_serial_console.cpp:45:6:void Qul::Platform::Private::writeChar(char&)	16	static
+/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/private/flagpointer.h:222:6:bool Qul::Private::FlagPointer<T>::flag() const [with T = Qul::Private::DependencyBase]	16	static
+/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/private/flagpointer.h:322:1:Qul::Private::FlagPointer<T>::operator bool() const [with T = Qul::Private::DependencyBase]	16	static
+/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/private/flagpointer.h:304:4:T* Qul::Private::FlagPointer<T>::operator->() const [with T = Qul::Private::DependencyBase]	16	static
+/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/private/flagpointer.h:295:17:Qul::Private::FlagPointer<T>& Qul::Private::FlagPointer<T>::operator=(T*) [with T = Qul::Private::DependencyBase]	24	static
+/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/private/flagpointer.h:316:4:T* Qul::Private::FlagPointer<T>::data() const [with T = Qul::Private::DependencyBase]	16	static
+/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/private/flagpointer.h:211:1:Qul::Private::FlagPointer<T>::FlagPointer(const Qul::Private::FlagPointer<T>&) [with T = Qul::Private::DependencyBase]	16	static
+/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/private/flagpointer.h:288:17:Qul::Private::FlagPointer<T>& Qul::Private::FlagPointer<T>::operator=(const Qul::Private::FlagPointer<T>&) [with T = Qul::Private::DependencyBase]	16	static
+/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/private/flagpointer.h:377:19:Qul::Private::BiPointer<T, T2>& Qul::Private::BiPointer<T, T2>::operator=(T*) [with T = Qul::Private::PropertyBase; T2 = Qul::Private::ChangeEventBase]	24	static
+/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/private/flagpointer.h:352:6:bool Qul::Private::BiPointer<T, T2>::isNull() const [with T = Qul::Private::DependencyBase; T2 = Qul::Private::BindingBase]	16	static
+/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/private/flagpointer.h:364:6:bool Qul::Private::BiPointer<T, T2>::isT2() const [with T = Qul::Private::DependencyBase; T2 = Qul::Private::BindingBase]	16	static
+/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/private/flagpointer.h:402:5:T2* Qul::Private::BiPointer<T, T2>::asT2() const [with T = Qul::Private::DependencyBase; T2 = Qul::Private::BindingBase]	24	static
+/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/private/flagpointer.h:395:4:T* Qul::Private::BiPointer<T, T2>::asT1() const [with T = Qul::Private::DependencyBase; T2 = Qul::Private::BindingBase]	24	static
+/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/private/flagpointer.h:377:19:Qul::Private::BiPointer<T, T2>& Qul::Private::BiPointer<T, T2>::operator=(T*) [with T = Qul::Private::DependencyBase; T2 = Qul::Private::BindingBase]	24	static
+/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/private/linkedlist.h:88:5:Qul::Private::LinkedList<T>::~LinkedList() [with T = Qul::Private::SlotBase<void()>]	24	static
+/home/stvsl/Qt/QtMCUs/2.7.0/include/platforminterface/allocator.h:103:11:) [with T = Qul::Private::SharedStringPair; Args = {const Qul::Private::String&, const Qul::Private::String&}]	32	static
+/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/private/unicodestring.h:563:8:Qul::Private::SharedStringPair::~SharedStringPair()	16	static
+/home/stvsl/Qt/QtMCUs/2.7.0/include/platforminterface/allocator.h:159:13:void Qul::PlatformInterface::qul_delete(T*) [with T = Qul::Private::SharedStringPair]	16	static
+/home/stvsl/Qt/QtMCUs/2.7.0/include/platforminterface/allocator.h:103:11:) [with T = Qul::Private::DynamicString; Args = {short unsigned int&}]	32	static
+/home/stvsl/Qt/QtMCUs/2.7.0/include/platforminterface/allocator.h:159:13:void Qul::PlatformInterface::qul_delete(T*) [with T = Qul::Private::DynamicString]	16	static
+/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/private/flagpointer.h:358:6:bool Qul::Private::BiPointer<T, T2>::isT1() const [with T = Qul::Private::DependencyBase; T2 = Qul::Private::BindingBase]	16	static
+/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/private/animation.h:138:12:Qul::Private::Items::Animation::AnimationExtraProperties::~AnimationExtraProperties()	16	static
+/home/stvsl/Qt/QtMCUs/2.7.0/include/platforminterface/allocator.h:159:13:void Qul::PlatformInterface::qul_delete(T*) [with T = Qul::Private::Items::Animation::AnimationExtraProperties]	16	static
+/home/stvsl/.mcuxpressotools/arm-gnu-toolchain-12.3.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/c++/12.3.1/bits/move.h:77:5:constexpr _Tp&& std::forward(typename remove_reference<_Tp>::type&) [with _Tp = const Qul::Private::String&]	16	static
+/home/stvsl/.mcuxpressotools/arm-gnu-toolchain-12.3.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/c++/12.3.1/bits/move.h:77:5:constexpr _Tp&& std::forward(typename remove_reference<_Tp>::type&) [with _Tp = short unsigned int&]	16	static

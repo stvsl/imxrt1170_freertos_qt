@@ -1,0 +1,9 @@
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/vg_lite_text.c:67:5:init_256pallet_color_table	72	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/vg_lite_text.c:97:13:pixel_callback	40	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/vg_lite_text.c:121:16:character_callback	48	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/vg_lite_text.c:129:13:line_callback	56	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/vg_lite_text.c:151:6:count_lines	32	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/vg_lite_text.c:158:17:alloc_font_buffer	32	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/vg_lite_text.c:178:24:free_font_buffer	24	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/vg_lite_text.c:187:6:matrix_multiply	64	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/vg_lite_text.c:207:17:vg_lite_draw_text	200	static

@@ -1,0 +1,12 @@
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/VGLite/vg_lite_flat.c:133:13:quad_bezier_eval	32	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/VGLite/vg_lite_flat.c:149:24:approx_integral	40	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/VGLite/vg_lite_flat.c:158:24:approx_inverse_integral	40	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/VGLite/vg_lite_flat.c:167:26:map_to_parabola	104	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/VGLite/vg_lite_flat.c:195:37:quad_bezier_flatten_params_init	96	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/VGLite/vg_lite_flat.c:229:13:quad_bezier_flatten_at	56	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/VGLite/vg_lite_flat.c:246:1:_flatten_quad_bezier	120	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/VGLite/vg_lite_flat.c:317:13:cubic_bezier_eval	48	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/VGLite/vg_lite_flat.c:334:22:cubic_bezier_derivative	64	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/VGLite/vg_lite_flat.c:356:23:cubic_bezier_split_at	168	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/VGLite/vg_lite_flat.c:405:12:cubic_bezier_get_flatten_count	32	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/VGLite/vg_lite_flat.c:422:1:_flatten_cubic_bezier	288	static

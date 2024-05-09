@@ -1,0 +1,21 @@
+{
+  "version": "1.4",
+  "toolchainPath": "/home/stvsl/.mcuxpressotools/arm-gnu-toolchain-12.3.rel1-x86_64-arm-none-eabi",
+  "linkedProjects": [],
+  "trustZoneType": "none",
+  "multicoreType": "none",
+  "debug": {
+    "linkserver": {},
+    "pemicro": {},
+    "segger": {}
+  },
+  "projectType": "sdk-freestanding",
+  "sdk": {
+    "version": "2.15.100",
+    "path": "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN",
+    "boardId": "evkmimxrt1170",
+    "deviceId": "MIMXRT1176xxxxx",
+    "coreId": "cm7_MIMXRT1176xxxxx",
+    "manifestId": "SDK_2.x_MIMXRT1170-EVK"
+  }
+}

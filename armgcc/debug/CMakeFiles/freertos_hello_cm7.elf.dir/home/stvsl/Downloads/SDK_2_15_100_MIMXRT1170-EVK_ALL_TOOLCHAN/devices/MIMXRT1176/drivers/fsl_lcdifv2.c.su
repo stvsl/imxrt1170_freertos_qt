@@ -1,0 +1,16 @@
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/fsl_clock.h:2178:20:CLOCK_ControlGate	16	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/fsl_clock.h:2197:20:CLOCK_EnableClock	16	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/fsl_clock.h:2207:20:CLOCK_DisableClock	16	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/fsl_lcdifv2.c:53:17:LCDIFV2_GetInstance	24	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/fsl_lcdifv2.c:73:13:LCDIFV2_ResetRegister	24	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/fsl_lcdifv2.c:114:6:LCDIFV2_Init	24	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/fsl_lcdifv2.c:133:6:LCDIFV2_Deinit	24	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/fsl_lcdifv2.c:149:6:LCDIFV2_Reset	16	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/fsl_lcdifv2.c:162:6:LCDIFV2_DisplayGetDefaultConfig	16	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/fsl_lcdifv2.c:186:6:LCDIFV2_SetDisplayConfig	16	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/fsl_lcdifv2.c:216:6:LCDIFV2_SetCscMode	16	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/fsl_lcdifv2.c:265:6:LCDIFV2_SetLayerBufferConfig	32	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/fsl_lcdifv2.c:298:10:LCDIFV2_SetLut	32	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/fsl_lcdifv2.c:340:6:LCDIFV2_SetLayerBlendConfig	32	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/fsl_lcdifv2.c:378:10:LCDIFV2_GetPorterDuffConfig	24	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/fsl_lcdifv2.c:476:10:LCDIFV2_GetMultiLayerGlobalAlpha	40	static

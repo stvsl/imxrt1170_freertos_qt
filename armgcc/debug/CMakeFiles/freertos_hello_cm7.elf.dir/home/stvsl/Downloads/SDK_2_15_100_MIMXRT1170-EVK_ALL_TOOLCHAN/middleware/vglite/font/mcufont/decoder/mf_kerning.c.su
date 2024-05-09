@@ -1,0 +1,6 @@
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/mcufont/decoder/mf_kerning.c:14:13:fit_leftedge	24	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/mcufont/decoder/mf_kerning.c:28:13:fit_rightedge	24	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/mcufont/decoder/mf_kerning.c:43:13:do_kerning	16	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/mcufont/decoder/mf_kerning.c:58:16:max16	16	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/mcufont/decoder/mf_kerning.c:59:16:avg16	16	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/mcufont/decoder/mf_kerning.c:61:8:mf_compute_kerning	72	static

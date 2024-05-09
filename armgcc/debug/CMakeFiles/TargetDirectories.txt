@@ -1,0 +1,3 @@
+/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/armgcc/debug/CMakeFiles/freertos_hello_cm7.elf.dir
+/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/armgcc/debug/CMakeFiles/edit_cache.dir
+/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/armgcc/debug/CMakeFiles/rebuild_cache.dir

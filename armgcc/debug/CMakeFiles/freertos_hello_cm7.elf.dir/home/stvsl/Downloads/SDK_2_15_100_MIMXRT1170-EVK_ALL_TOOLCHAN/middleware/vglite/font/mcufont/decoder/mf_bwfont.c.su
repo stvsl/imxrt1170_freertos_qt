@@ -1,0 +1,5 @@
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/mcufont/decoder/mf_bwfont.c:5:45:find_char_range	40	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/mcufont/decoder/mf_bwfont.c:24:16:get_width	16	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/mcufont/decoder/mf_bwfont.c:36:16:render_char	64	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/mcufont/decoder/mf_bwfont.c:105:9:mf_bwfont_render_character	48	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/mcufont/decoder/mf_bwfont.c:122:9:mf_bwfont_character_width	32	static

@@ -1,0 +1,10 @@
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/mcufont/decoder/mf_justify.c:6:16:mf_round_to_tab	24	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/mcufont/decoder/mf_justify.c:24:16:mf_round_to_prev_tab	24	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/mcufont/decoder/mf_justify.c:42:9:mf_get_string_width	32	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/mcufont/decoder/mf_justify.c:77:17:strip_spaces	32	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/mcufont/decoder/mf_justify.c:108:13:render_left	40	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/mcufont/decoder/mf_justify.c:158:13:render_right	48	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/mcufont/decoder/mf_justify.c:204:6:mf_render_aligned	48	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/mcufont/decoder/mf_justify.c:248:13:is_justify_space	16	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/mcufont/decoder/mf_justify.c:254:17:count_spaces	24	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/mcufont/decoder/mf_justify.c:265:6:mf_render_justified	64	static

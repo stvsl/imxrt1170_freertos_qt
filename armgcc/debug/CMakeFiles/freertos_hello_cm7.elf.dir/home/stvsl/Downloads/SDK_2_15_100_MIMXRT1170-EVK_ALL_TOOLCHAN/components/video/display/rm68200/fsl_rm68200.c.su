@@ -1,0 +1,4 @@
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/components/video/display/rm68200/fsl_rm68200.c:295:10:RM68200_Init	40	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/components/video/display/rm68200/fsl_rm68200.c:382:10:RM68200_Deinit	24	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/components/video/display/rm68200/fsl_rm68200.c:395:10:RM68200_Start	24	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/components/video/display/rm68200/fsl_rm68200.c:403:10:RM68200_Stop	24	static
