@@ -1,5 +1,0 @@
-module QtQuick/Controls/StyleDefault
-typeinfo plugins.qmltypes
-import QtQuick
-import QtQuick
-import QtQuick.Templates
