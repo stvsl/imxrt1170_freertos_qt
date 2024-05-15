@@ -38,21 +38,28 @@ set(SOURCE_DIR
     ${ProjDirPath}/../platform
 )
 
-LINK_DIRECTORIES(
-    $ENV{QUL_BUILD_DIR}/${QUL_LIB_TYPE}
-)
-
 set(STATIC_QUL_LIBS 
     QulCore_cortex-m7-hf-fpv5-d16_Linux_armgcc_${QUL_LIB_TYPE}
     QulPlatform_mimxrt1170-evkb-freertos_32bpp_Linux_armgcc_${QUL_LIB_TYPE}
-    QulMonotypeUnicodeEngineShaperDisabled_cortex-m7-hf-fpv5-d16_Linux_armgcc_${QUL_LIB_TYPE}
-    QulMonotypeUnicode_cortex-m7-hf-fpv5-d16_Linux_armgcc_${QUL_LIB_TYPE}
-    QulPNGDecoderLodePNG_cortex-m7-hf-fpv5-d16_Linux_armgcc_${QUL_LIB_TYPE}
+    QulPlatformBSP_mimxrt1170-evkb-freertos_32bpp_Linux_armgcc_${QUL_LIB_TYPE}
+    QulControls_cortex-m7-hf-fpv5-d16_Linux_armgcc_${QUL_LIB_TYPE}
+    QulControlsTemplates_cortex-m7-hf-fpv5-d16_Linux_armgcc_${QUL_LIB_TYPE}
+    QulDeviceLink_mimxrt1170-evkb-freertos_Linux_armgcc_${QUL_LIB_TYPE}
     QulShapes_cortex-m7-hf-fpv5-d16_Linux_armgcc_${QUL_LIB_TYPE}
-)
-
-LINK_LIBRARIES(
-    ${STATIC_QUL_LIBS}
+    QulMonotypeUnicodeEngineShaperDisabled_cortex-m7-hf-fpv5-d16_Linux_armgcc_${QUL_LIB_TYPE}
+    QulMonotypeFontEngine_cortex-m7-hf-fpv5-d16_Linux_armgcc_${QUL_LIB_TYPE}
+    QulMonotypeUnicode_cortex-m7-hf-fpv5-d16_Linux_armgcc_${QUL_LIB_TYPE}
+    QulMonotypeFontEngineAligned_cortex-m7-hf-fpv5-d16_Linux_armgcc_${QUL_LIB_TYPE}
+    QulMonotypeShaperEngine_cortex-m7-hf-fpv5-d16_Linux_armgcc_${QUL_LIB_TYPE}
+    QulMonotypeUnicodeEngine_cortex-m7-hf-fpv5-d16_Linux_armgcc_${QUL_LIB_TYPE}
+    QulWorldTypeSpark_cortex-m7-hf-fpv5-d16_Linux_armgcc_${QUL_LIB_TYPE}
+    QulITypeSparkAligned_cortex-m7-hf-fpv5-d16_Linux_armgcc_${QUL_LIB_TYPE}
+    QulITypeSpark_cortex-m7-hf-fpv5-d16_Linux_armgcc_${QUL_LIB_TYPE}
+    QulPNGDecoderLodePNG_cortex-m7-hf-fpv5-d16_Linux_armgcc_${QUL_LIB_TYPE}
+    QulPNGDecoderNull_cortex-m7-hf-fpv5-d16_Linux_armgcc_${QUL_LIB_TYPE}
+    QulProfiling_cortex-m7-hf-fpv5-d16_Linux_armgcc_${QUL_LIB_TYPE}
+    QulStudioComponents_cortex-m7-hf-fpv5-d16_Linux_armgcc_${QUL_LIB_TYPE}
+    QulTimeline_cortex-m7-hf-fpv5-d16_Linux_armgcc_${QUL_LIB_TYPE}
 )
 
 foreach(QUL_LIB ${STATIC_QUL_LIBS})

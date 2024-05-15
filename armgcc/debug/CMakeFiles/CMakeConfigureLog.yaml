@@ -5,7 +5,7 @@ events:
     kind: "message-v1"
     backtrace:
       - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:200 (message)"
-      - "CMakeLists.txt:22 (ENABLE_LANGUAGE)"
+      - "CMakeLists.txt:21 (ENABLE_LANGUAGE)"
     message: |
       The target system is: Generic -  - arm
       The host system is: Linux - 6.8.9-zen1-1-zen - x86_64
@@ -14,7 +14,7 @@ events:
     backtrace:
       - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1165 (message)"
       - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
-      - "CMakeLists.txt:22 (ENABLE_LANGUAGE)"
+      - "CMakeLists.txt:21 (ENABLE_LANGUAGE)"
     message: |
       Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
       arm-none-eabi-gcc (Arm GNU Toolchain 12.3.Rel1 (Build arm-12.35)) 12.3.1 20230626
@@ -28,7 +28,7 @@ events:
       - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:36 (project)"
+      - "CMakeLists.txt:35 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
       Compiler: /home/stvsl/.mcuxpressotools/arm-gnu-toolchain-12.3.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc 
@@ -58,7 +58,7 @@ events:
       - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:36 (project)"
+      - "CMakeLists.txt:35 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
       Compiler: /home/stvsl/.mcuxpressotools/arm-gnu-toolchain-12.3.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc 
@@ -82,7 +82,7 @@ events:
       - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:36 (project)"
+      - "CMakeLists.txt:35 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
       Compiler: /home/stvsl/.mcuxpressotools/arm-gnu-toolchain-12.3.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-g++ 
@@ -112,7 +112,7 @@ events:
       - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:36 (project)"
+      - "CMakeLists.txt:35 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
       Compiler: /home/stvsl/.mcuxpressotools/arm-gnu-toolchain-12.3.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-g++ 

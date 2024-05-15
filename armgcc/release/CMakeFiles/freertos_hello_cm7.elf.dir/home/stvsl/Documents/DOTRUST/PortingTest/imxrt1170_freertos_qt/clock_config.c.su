@@ -1,0 +1,3 @@
+/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/clock_config.c:275:6:BOARD_BootClockRUN	16	static
+/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/clock_config.c:39:6:BOARD_InitBootClocks	0	static
+/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/clock_config.c:1091:6:BOARD_BootClockRUN_800M	16	static

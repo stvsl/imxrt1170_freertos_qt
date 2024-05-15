@@ -1,0 +1,37 @@
+{
+    "characters": "qrc:/images/slider-background.pngqrc:/images/slider-background-disabled.pngqrc:/images/slider-background-vertical.pngqrc:/images/slider-background-disabled-vertical.pngqrc:/images/slider-handle-pressed.pngqrc:/images/slider-handle.pngqrc:/images/slider-handle-disabled-pressed.pngqrc:/images/slider-handle-disabled.png",
+    "defaultFont": {
+        "bpp": 0,
+        "characters": "",
+        "family": "",
+        "id": "qul_font_default_20_400",
+        "italic": false,
+        "pixelSize": 20,
+        "unicodeRanges": [
+        ],
+        "weight": 400
+    },
+    "fontPropertyInfos": {
+    },
+    "fonts": [
+    ],
+    "moduleUri": "QtQuick.Controls.StyleDefault",
+    "srcFile": "/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/Slider.qml",
+    "staticTextTranslations": [
+    ],
+    "staticTexts": [
+    ],
+    "translationLanguages": {
+        "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+        "languages": [
+            ""
+        ]
+    },
+    "translations": {
+        "hash": "c28c1f68cd4b495375f9d684e2ae049fdc3b8836",
+        "offsets": [
+        ],
+        "values": [
+        ]
+    }
+}

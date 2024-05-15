@@ -14,13 +14,19 @@
 //*****************************************************************************
 
 #include <FreeRTOS.h>
+#include <platforminterface/log.h>
 #include <portable.h>
 #include <stdlib.h>
 #include <task.h>
 
-void *operator new(size_t size) { return pvPortMalloc(size); }
+#define CPP_NO_HEAP_GET 1
+void *operator new(size_t size) {
+  return pvPortMalloc(size);
+}
 
-void *operator new[](size_t size) { return pvPortMalloc(size); }
+void *operator new[](size_t size) {
+  return pvPortMalloc(size);
+}
 
 void operator delete(void *p) { vPortFree(p); }
 

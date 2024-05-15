@@ -5,7 +5,10 @@
   "trustZoneType": "none",
   "multicoreType": "none",
   "debug": {
-    "linkserver": {},
+    "linkserver": {
+      "device": "MIMXRT1176xxxxx:MIMXRT1170-EVK",
+      "core": "cm7"
+    },
     "pemicro": {},
     "segger": {}
   },

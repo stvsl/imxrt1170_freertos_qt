@@ -1,0 +1,111 @@
+import QtQuick.tooling 1.1
+
+Module {
+    Component {
+        name: " ::QtQuick::Controls::StyleDefault::DefaultStyle *"
+        prototype: "Qul::Object *"
+        isSingleton: true
+        exports: ["QtQuick.Controls.StyleDefault/DefaultStyle 1.0"]
+        exportMetaObjectRevisions: [0]
+        Property {
+            name: "disabledTextColor"
+            type: "Qul::PlatformInterface::Rgba32"
+            isReadonly: true
+        }
+        Property {
+            name: "padding"
+            type: "int"
+            isReadonly: true
+        }
+        Property {
+            name: "textColor"
+            type: "Qul::PlatformInterface::Rgba32"
+            isReadonly: true
+        }
+        Property {
+            name: "inset"
+            type: "int"
+            isReadonly: true
+        }
+    }
+    Component {
+        name: " ::QtQuick::Controls::StyleDefault::SwipeView *"
+        prototype: "Qul::Private::Controls::Templates::SwipeView *"
+        exports: ["QtQuick.Controls.StyleDefault/SwipeView 1.0"]
+        exportMetaObjectRevisions: [0]
+        Property {
+            name: "state"
+            type: "string"
+        }
+    }
+    Component {
+        name: " ::QtQuick::Controls::StyleDefault::ProgressBar *"
+        prototype: "Qul::Private::Controls::Templates::ProgressBar *"
+        exports: ["QtQuick.Controls.StyleDefault/ProgressBar 1.0"]
+        exportMetaObjectRevisions: [0]
+        Property {
+            name: "state"
+            type: "string"
+        }
+    }
+    Component {
+        name: " ::QtQuick::Controls::StyleDefault::CheckBox *"
+        prototype: "Qul::Private::Controls::Templates::CheckBox *"
+        exports: ["QtQuick.Controls.StyleDefault/CheckBox 1.0"]
+        exportMetaObjectRevisions: [0]
+        Property {
+            name: "state"
+            type: "string"
+        }
+    }
+    Component {
+        name: " ::QtQuick::Controls::StyleDefault::Switch *"
+        prototype: "Qul::Private::Controls::Templates::Switch *"
+        exports: ["QtQuick.Controls.StyleDefault/Switch 1.0"]
+        exportMetaObjectRevisions: [0]
+        Property {
+            name: "state"
+            type: "string"
+        }
+    }
+    Component {
+        name: " ::QtQuick::Controls::StyleDefault::Button *"
+        prototype: "Qul::Private::Controls::Templates::Button *"
+        exports: ["QtQuick.Controls.StyleDefault/Button 1.0"]
+        exportMetaObjectRevisions: [0]
+        Property {
+            name: "state"
+            type: "string"
+        }
+    }
+    Component {
+        name: " ::QtQuick::Controls::StyleDefault::RadioButton *"
+        prototype: "Qul::Private::Controls::Templates::RadioButton *"
+        exports: ["QtQuick.Controls.StyleDefault/RadioButton 1.0"]
+        exportMetaObjectRevisions: [0]
+        Property {
+            name: "state"
+            type: "string"
+        }
+    }
+    Component {
+        name: " ::QtQuick::Controls::StyleDefault::Dial *"
+        prototype: "Qul::Private::Controls::Templates::Dial *"
+        exports: ["QtQuick.Controls.StyleDefault/Dial 1.0"]
+        exportMetaObjectRevisions: [0]
+        Property {
+            name: "state"
+            type: "string"
+        }
+    }
+    Component {
+        name: " ::QtQuick::Controls::StyleDefault::Slider *"
+        prototype: "Qul::Private::Controls::Templates::Slider *"
+        exports: ["QtQuick.Controls.StyleDefault/Slider 1.0"]
+        exportMetaObjectRevisions: [0]
+        Property {
+            name: "state"
+            type: "string"
+        }
+    }
+}

@@ -31,13 +31,14 @@ SET(CMAKE_ASM_FLAGS_RELEASE " \
 
 SET(CMAKE_C_FLAGS_DEBUG " \
     ${CMAKE_C_FLAGS_DEBUG} \
+    -D__NEWLIB__ \
     -DDEBUG \
     -DCPU_MIMXRT1176DVMAA_cm7 \
     -DMCUXPRESSO_SDK \
     -DSERIAL_PORT_TYPE_UART=1 \
     -DSDK_OS_FREE_RTOS \
-    -g \
-    -O0 \
+    -ggdb \
+    -O3 \
     -mcpu=cortex-m7 \
     -Wall \
     -mthumb \
@@ -49,18 +50,19 @@ SET(CMAKE_C_FLAGS_DEBUG " \
     -ffreestanding \
     -fno-builtin \
     -mapcs \
-    -std=gnu99 \
+    -std=gnu17 \
     ${FPU} \
     ${DEBUG_CONSOLE_CONFIG} \
 ")
 SET(CMAKE_C_FLAGS_RELEASE " \
     ${CMAKE_C_FLAGS_RELEASE} \
+    -D__NEWLIB__ \
     -DNDEBUG \
     -DCPU_MIMXRT1176DVMAA_cm7 \
     -DMCUXPRESSO_SDK \
     -DSERIAL_PORT_TYPE_UART=1 \
     -DSDK_OS_FREE_RTOS \
-    -Os \
+    -O3 \
     -mcpu=cortex-m7 \
     -Wall \
     -mthumb \
@@ -72,7 +74,7 @@ SET(CMAKE_C_FLAGS_RELEASE " \
     -ffreestanding \
     -fno-builtin \
     -mapcs \
-    -std=gnu99 \
+    -std=gnu17 \
     ${FPU} \
     ${DEBUG_CONSOLE_CONFIG} \
 ")
@@ -84,8 +86,8 @@ SET(CMAKE_CXX_FLAGS_DEBUG " \
     -DCPU_MIMXRT1176DVMAA_cm7 \
     -DMCUXPRESSO_SDK \
     -DSERIAL_PORT_TYPE_UART=1 \
-    -g \
-    -O0 \
+    -ggdb \
+    -O3 \
     -mcpu=cortex-m7 \
     -Wall \
     -mthumb \
@@ -109,7 +111,7 @@ SET(CMAKE_CXX_FLAGS_RELEASE " \
     -DCPU_MIMXRT1176DVMAA_cm7 \
     -DMCUXPRESSO_SDK \
     -DSERIAL_PORT_TYPE_UART=1 \
-    -Os \
+    -O3 \
     -mcpu=cortex-m7 \
     -Wall \
     -mthumb \
@@ -130,7 +132,7 @@ SET(CMAKE_CXX_FLAGS_RELEASE " \
 
 SET(CMAKE_EXE_LINKER_FLAGS_DEBUG " \
     ${CMAKE_EXE_LINKER_FLAGS_DEBUG} \
-    -g \
+    -ggdb \
     -mcpu=cortex-m7 \
     -Wall \
     -fno-common \
@@ -151,6 +153,8 @@ SET(CMAKE_EXE_LINKER_FLAGS_DEBUG " \
     -Xlinker \
     -Map=output.map \
     -Wl,--print-memory-usage \
+    -Xlinker \
+    -cref \
     ${FPU} \
     ${SPECS} \
     -T\"${ProjDirPath}/../platform/platform/boards/nxp/mimxrt1170-evkb-freertos/cmake/armgcc/MIMXRT1176xxxxx_cm7_flexspi_nor_sdram.ld\" -static \
@@ -177,6 +181,8 @@ SET(CMAKE_EXE_LINKER_FLAGS_RELEASE " \
     -Xlinker \
     -Map=output.map \
     -Wl,--print-memory-usage \
+    -Xlinker \
+    -cref \
     ${FPU} \
     ${SPECS} \
     -T\"${ProjDirPath}/../platform/platform/boards/nxp/mimxrt1170-evkb-freertos/cmake/armgcc/MIMXRT1176xxxxx_cm7_flexspi_nor_sdram.ld\" -static \

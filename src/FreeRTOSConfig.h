@@ -41,6 +41,21 @@
  *
  * See http://www.freertos.org/a00110.html.
  *----------------------------------------------------------*/
+#if defined(__ICCARM__) || defined(__CC_ARM) || defined(__GNUC__)
+/* in Kinetis SDK, this contains the system core clock frequency */
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+#include <stdint.h>
+extern uint32_t SystemCoreClock;
+
+#ifdef __cplusplus
+}
+#endif
+#endif
+
 #define ucHeap __HeapBase
 #define configUSE_PREEMPTION 1
 #define configUSE_TICKLESS_IDLE 0
@@ -123,12 +138,6 @@
 #define INCLUDE_xTaskAbortDelay 0
 #define INCLUDE_xTaskGetHandle 0
 #define INCLUDE_xTaskResumeFromISR 1
-
-#if defined(__ICCARM__) || defined(__CC_ARM) || defined(__GNUC__)
-/* in Kinetis SDK, this contains the system core clock frequency */
-#include <stdint.h>
-extern uint32_t SystemCoreClock;
-#endif
 
 /* Interrupt nesting behaviour configuration. Cortex-M specific. */
 #ifdef __NVIC_PRIO_BITS

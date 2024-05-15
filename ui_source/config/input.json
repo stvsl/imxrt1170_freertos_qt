@@ -1,0 +1,82 @@
+{
+    "FontFiles": [
+        "/home/stvsl/Documents/DOTRUST/MCUDemo/MCUDemo/fonts/DejaVuSansMono.ttf"
+    ],
+    "ImageFiles": [
+        "/home/stvsl/Documents/DOTRUST/MCUDemo/MCUDemo/images/p506_133413.png"
+    ],
+    "InterfaceFiles": [
+        "/home/stvsl/Documents/DOTRUST/MCUDemo/MCUDemo/src/bredge/AppBredge.h",
+        "/home/stvsl/Documents/DOTRUST/MCUDemo/MCUDemo/src/core/core_def.h",
+        "/home/stvsl/Documents/DOTRUST/MCUDemo/MCUDemo/src/daemon/Daemon.h",
+        "/home/stvsl/Documents/DOTRUST/MCUDemo/MCUDemo/src/core/debug_symbol.h"
+    ],
+    "ModuleFiles": [
+    ],
+    "QmlFiles": [
+        "/home/stvsl/Documents/DOTRUST/MCUDemo/MCUDemo/MCUDemo.qml"
+    ],
+    "TranslationFiles": [
+    ],
+    "modulesDependencies": [
+        {
+            "FontFiles": [
+            ],
+            "ImageFiles": [
+                "/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/resources/images/slider-handle.png",
+                "/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/resources/images/dial-progress.png",
+                "/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/resources/images/checkbox-disabled.png",
+                "/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/resources/images/slider-background.png",
+                "/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/resources/images/checkbox.png",
+                "/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/resources/images/switch-i.png",
+                "/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/resources/images/button-disabled.png",
+                "/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/resources/images/checkbox-partially-checked-pressed.png",
+                "/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/resources/images/dial-background.png",
+                "/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/resources/images/slider-progress.png",
+                "/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/resources/images/switch-o.png",
+                "/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/resources/images/radiobutton-checked-pressed.png",
+                "/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/resources/images/progressbar-progress.png",
+                "/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/resources/images/radiobutton-disabled.png",
+                "/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/resources/images/slider-handle-pressed.png",
+                "/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/resources/images/switch-bg.png",
+                "/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/resources/images/progressbar-background.png",
+                "/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/resources/images/slider-handle-disabled.png",
+                "/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/resources/images/button-pressed.png",
+                "/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/resources/images/checkbox-partially-checked.png",
+                "/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/resources/images/slider-background-disabled.png",
+                "/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/resources/images/slider-background-vertical.png",
+                "/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/resources/images/radiobutton.png",
+                "/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/resources/images/checkbox-checked.png",
+                "/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/resources/images/checkbox-pressed.png",
+                "/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/resources/images/button.png",
+                "/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/resources/images/slider-handle-disabled-pressed.png",
+                "/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/resources/images/slider-background-disabled-vertical.png",
+                "/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/resources/images/radiobutton-checked.png",
+                "/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/resources/images/radiobutton-pressed.png",
+                "/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/resources/images/checkbox-checked-pressed.png",
+                "/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/resources/images/dial-background-disabled.png",
+                "/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/resources/images/slider-progress-vertical.png",
+                "/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/resources/images/switch-handle.png"
+            ],
+            "InterfaceFiles": [
+            ],
+            "ModuleFiles": [
+            ],
+            "QmlFiles": [
+                "/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/ProgressBar.qml",
+                "/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/RadioButton.qml",
+                "/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/Dial.qml",
+                "/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/CheckBox.qml",
+                "/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/Button.qml",
+                "/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/Slider.qml",
+                "/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/Switch.qml",
+                "/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/DefaultStyle.qml",
+                "/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/SwipeView.qml"
+            ],
+            "TranslationFiles": [
+            ],
+            "qmlProjectFile": "/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/ControlsAssets.qmlproject"
+        }
+    ],
+    "qmlProjectFile": "/home/stvsl/Documents/DOTRUST/MCUDemo/MCUDemo/MCUDemo.qmlproject"
+}

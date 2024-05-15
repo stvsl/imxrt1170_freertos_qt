@@ -1,0 +1,19 @@
+CompileFlags:
+  Remove: 
+    - -mapcs
+    - -pp_file_not_found
+    - -mno-direct-extern-access
+    - -fconserve-stack
+    - -fno-allow-store-data-races
+    - -mfunction-return=thunk-extern
+    - -mindirect-branch-cs-prefix
+    - -mindirect-branch-register
+    - -mindirect-branch=thunk-extern
+    - -mskip-rax-setup
+    - -mpreferred-stack-boundary=3
+    - -mno-fp-ret-in-387
+  Add:
+    - -I
+    - /home/stvsl/.mcuxpressotools/arm-gnu-toolchain-12.3.rel1-x86_64-arm-none-eabi/redlib/include/
+Diagnostics:
+  Suppress: unused-includes 

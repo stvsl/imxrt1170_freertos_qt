@@ -1,0 +1,68 @@
+{
+    "characters": "Hello World ONOFF",
+    "defaultFont": {
+        "bpp": 0,
+        "characters": "",
+        "family": "",
+        "id": "qul_font_default_20_400",
+        "italic": false,
+        "pixelSize": 20,
+        "unicodeRanges": [
+        ],
+        "weight": 400
+    },
+    "fontPropertyInfos": {
+        "qul_font_default_22_400": {
+            "object": [
+                {
+                    "column": 15,
+                    "isConstant": true,
+                    "line": 38
+                }
+            ],
+            "pixelSize": [
+                {
+                    "column": 13,
+                    "isConstant": true,
+                    "line": 40
+                }
+            ]
+        }
+    },
+    "fonts": [
+        {
+            "bpp": 0,
+            "characters": "",
+            "family": "",
+            "id": "qul_font_default_22_400",
+            "italic": false,
+            "pixelSize": 22,
+            "unicodeRanges": [
+                [
+                    0,
+                    127
+                ]
+            ],
+            "weight": 400
+        }
+    ],
+    "moduleUri": "",
+    "srcFile": "/home/stvsl/Documents/DOTRUST/MCUDemo/MCUDemo/MCUDemo.qml",
+    "staticTextTranslations": [
+    ],
+    "staticTexts": [
+    ],
+    "translationLanguages": {
+        "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+        "languages": [
+            ""
+        ]
+    },
+    "translations": {
+        "hash": "efb9bd711ca4f2949696cd127bc89dde1183bf23",
+        "offsets": [
+        ],
+        "values": [
+        ]
+    }
+}

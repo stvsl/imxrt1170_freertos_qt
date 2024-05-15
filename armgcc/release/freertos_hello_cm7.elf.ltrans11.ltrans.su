@@ -1,0 +1,22 @@
+/home/stvsl/Qt/QtMCUs/2.7.0/include/platforminterface/allocator.h:67:8:allocate.constprop	24	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/VGLite/vg_lite.c:5830:24:set_interpolation_steps.constprop	152	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/fsl_pmu.c:193:6:PMU_StaticEnablePllLdo.constprop	0	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/rtos/freertos/freertos-kernel/queue.c:2177:19:prvCopyDataToQueue.constprop	24	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/rtos/freertos/freertos-kernel/queue.c:835:12:xQueueGenericSend.constprop	16	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/rtos/freertos/freertos-kernel/queue.c:835:12:xQueueGenericSend.constprop	48	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/rtos/freertos/freertos-kernel/queue.c:1521:12:xQueueSemaphoreTake.constprop	24	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/VGLite/rtos/vg_lite_os.c:328:9:vg_lite_os_wait.constprop	16	static
+/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/ui_source/qul_font_engines.cpp:1510:13:globalSparkEngineFromConfig.constprop	0	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/rtos/freertos/freertos-kernel/tasks.c:721:16:xTaskCreate.constprop	40	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/VGLite/vg_lite.c:6311:17:vg_lite_blit_rect.constprop.isra	152	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/VGLiteKernel/vg_lite_kernel.c:620:24:terminate_vglite.isra	40	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/VGLite/vg_lite_path.c:36:17:vg_lite_upload_path.isra	112	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/VGLite/vg_lite.c:4774:24:push_data.isra	48	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/VGLite/vg_lite.c:6815:17:vg_lite_draw.constprop.isra	96	static
+/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/boards/nxp/mimxrt1170-evkb-freertos/vglitesupport.cpp:334:6:blendRoundedRect.constprop	656	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/rtos/freertos/freertos-kernel/queue.c:1212:12:xQueueGiveFromISR.isra	16	static
+/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/boards/nxp/mimxrt1170-evkb-freertos/vgliterotationcache.cpp:46:1:__dt_base .isra	16	static
+/home/stvsl/.mcuxpressotools/arm-gnu-toolchain-12.3.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/c++/12.3.1/bits/stl_tree.h:2459:7:_M_emplace_hint_unique.constprop	48	static
+/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/boards/nxp/mimxrt1170-evkb-freertos/vglitesupport.cpp:189:6:blendTransformed.constprop	168	static
+<built-in>:_sub_I_65535_0	8	static
+<built-in>:_sub_D_65535_1	8	static

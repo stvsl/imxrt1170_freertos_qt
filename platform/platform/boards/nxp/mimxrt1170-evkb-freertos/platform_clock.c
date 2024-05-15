@@ -18,11 +18,28 @@
 ** $QT_END_LICENSE$
 **
 ******************************************************************************/
+#include "board.h"
 #include "platform_os.h"
 
-void SysTick_Handler()
-{
-    systick();
+uint8_t ledstatus = 1;
+uint32_t tick = 0;
+
+void SysTick_Handler() {
+  systick();
+#if 0
+  if (tick == 500) {
+    if (ledstatus == 1) {
+      USER_LED_ON();
+      ledstatus = 0;
+    } else {
+      USER_LED_OFF();
+      ledstatus = 1;
+    }
+    tick = 0;
+  } else {
+    tick++;
+  }
+#endif
 }
 
 // Force linker to add this file, including SysTick_Handler, to the binary.

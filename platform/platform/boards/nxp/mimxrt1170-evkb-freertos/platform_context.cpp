@@ -18,25 +18,26 @@
 ** $QT_END_LICENSE$
 **
 ******************************************************************************/
-//#include "cache.h"
-#include "platform_cache.h"
+// #include "cache.h"
 #include "display/platform_display.h"
+#include "platform_cache.h"
 #include "platform_drawing.h"
 #include "platform_irq.h"
 #include "platform_memory.h"
 #include "platform_os.h"
 #include "platform_rng.h"
 #include "platform_serial_console.h"
-#include "platform_touch.h"
 #include "platform_time.h"
+#include "platform_touch.h"
 #include "vglitesupport.h"
 
 #include "board.h"
 #include "pin_mux.h"
 
+#include <cstdint>
+#include <platform/devicelink.h>
 #include <platform/platform.h>
 #include <platform/private/mem_info.h>
-#include <platform/devicelink.h>
 #include <platforminterface/log.h>
 
 namespace Qul {
@@ -45,146 +46,147 @@ namespace Private {
 static uint64_t nextUpdate = 0;
 } // namespace Private
 
-struct Rt1170PerformanceMetrics : PerformanceMetrics
-{
-    uint64_t maxHeapUsage() override { return Qul::Platform::Private::maxHeapUsage(); };
-    uint64_t maxStackUsage() override { return Qul::Platform::Private::maxStackUsage(); };
+struct Rt1170PerformanceMetrics : PerformanceMetrics {
+  uint64_t maxHeapUsage() override {
+    return Qul::Platform::Private::maxHeapUsage();
+  };
+  uint64_t maxStackUsage() override {
+    return Qul::Platform::Private::maxStackUsage();
+  };
 };
 
-struct NxpRt1170Platform : PlatformContext
-{
-    void initializeHardware() override
-    {
-        BOARD_InitBootPins();
-        BOARD_ConfigMPU();
-        BOARD_BootClockRUN();
-        setInterruptPriorities();
-        BOARD_MIPIPanelTouch_I2C_Init();
-        BOARD_InitDebugConsole();
+struct NxpRt1170Platform : PlatformContext {
+  void initializeHardware() override {
+    BOARD_InitBootPins();
+    BOARD_ConfigMPU();
+    BOARD_BootClockRUN();
+    setInterruptPriorities();
+    BOARD_MIPIPanelTouch_I2C_Init();
+    BOARD_InitDebugConsole();
 
-        if (Qul::Platform::DeviceLink::instance())
-            Qul::Platform::DeviceLink::instance()->init();
+    if (Qul::Platform::DeviceLink::instance())
+      Qul::Platform::DeviceLink::instance()->init();
+  }
+
+  void initializePlatform() override {
+    Private::initMemUsageMeasurement();
+    initSuspension();
+    Qul::PlatformInterface::init16bppRendering();
+    Qul::PlatformInterface::init32bppRendering();
+
+    Private::preloadModuleResourceData();
+  }
+
+  void initializeDisplay(const PlatformInterface::Screen *) override {
+    Private::BOARD_Touch_Init();
+  }
+
+  uint64_t update() override {
+    // Private::requestTouchData();
+    uint64_t timestamp = currentTimestamp();
+
+    if (timestamp >= Private::nextUpdate) {
+      Qul::PlatformInterface::updateEngine(timestamp);
     }
 
-    void initializePlatform() override
-    {
-        Private::initMemUsageMeasurement();
-        initSuspension();
-        Qul::PlatformInterface::init16bppRendering();
-        Qul::PlatformInterface::init32bppRendering();
+    return Private::nextUpdate;
+  }
 
-        Private::preloadModuleResourceData();
-    }
-
-    void initializeDisplay(const PlatformInterface::Screen *) override { Private::BOARD_Touch_Init(); }
-
-    uint64_t update() override
-    {
-        Private::requestTouchData();
-        uint64_t timestamp = currentTimestamp();
-
-        if (timestamp >= Private::nextUpdate) {
-            Qul::PlatformInterface::updateEngine(timestamp);
-        }
-
-        return Private::nextUpdate;
-    }
-
-    void exec() override
-    {
+  void exec() override {
 #ifndef NDEBUG
-        Qul::PlatformInterface::log("exec \r\n");
+    Qul::PlatformInterface::log("exec \r\n");
 #endif
 
-        while (true) {
-            const uint64_t nextUpdate = this->update();
-
-            if (nextUpdate > currentTimestamp())
-                suspend(MAINLOOP_SEMAPHORE, nextUpdate - currentTimestamp());
-        }
+    while (true) {
+      const uint64_t nextUpdate = this->update();
+      if (nextUpdate > currentTimestamp())
+        suspend(MAINLOOP_SEMAPHORE, nextUpdate - currentTimestamp());
     }
+  }
 
-    double rand() override { return Private::rand(); }
+  double rand() override { return Private::rand(); }
 
-    void scheduleEngineUpdate(uint64_t timeout) override
-    {
-        Private::nextUpdate = timeout;
+  void scheduleEngineUpdate(uint64_t timeout) override {
+    Private::nextUpdate = timeout;
 
-        if (currentTimestamp() >= Private::nextUpdate) {
-            resume(MAINLOOP_SEMAPHORE);
-        }
+    if (currentTimestamp() >= Private::nextUpdate) {
+      resume(MAINLOOP_SEMAPHORE);
     }
+  }
 
-    uint64_t currentTimestamp() override { return qul_timestamp(); }
+  uint64_t currentTimestamp() override { return qul_timestamp(); }
 
-    FrameBufferingType frameBufferingType(const PlatformInterface::LayerEngine::ItemLayer *layer) const override
-    {
-        QUL_UNUSED(layer);
-        return FlippedDoubleBuffering;
-    }
+  FrameBufferingType frameBufferingType(
+      const PlatformInterface::LayerEngine::ItemLayer *layer) const override {
+    QUL_UNUSED(layer);
+    return FlippedDoubleBuffering;
+  }
 
-    Qul::PlatformInterface::Screen *availableScreens(size_t *screenCount) const override
-    {
-        return Private::availableScreens(screenCount);
-    }
+  Qul::PlatformInterface::Screen *
+  availableScreens(size_t *screenCount) const override {
+    return Private::availableScreens(screenCount);
+  }
 
-    void waitUntilAsyncReadFinished(const void *begin, const void *end) override
-    {
-        QUL_UNUSED(end);
+  void waitUntilAsyncReadFinished(const void *begin, const void *end) override {
+    QUL_UNUSED(end);
 #ifdef VGLITE_DISABLE_ROTATION_PREPROCESS
-        QUL_UNUSED(begin);
+    QUL_UNUSED(begin);
 #else
-        Private::Vglite::removeTextureFromRotationCache(begin);
+    Private::Vglite::removeTextureFromRotationCache(begin);
 #endif
-        Private::Vglite::finish();
-    }
+    Private::Vglite::finish();
+  }
 
-    void flushCachesForAsyncRead(const void *addr, size_t length) override
-    {
-        Private::cleanInvalidateDCacheByAddr(const_cast<void *>(addr), length);
-    }
+  void flushCachesForAsyncRead(const void *addr, size_t length) override {
+    Private::cleanInvalidateDCacheByAddr(const_cast<void *>(addr), length);
+  }
 
-    PlatformInterface::LayerEngine *layerEngine() override { return Private::layerEngine(); }
+  PlatformInterface::LayerEngine *layerEngine() override {
+    return Private::layerEngine();
+  }
 
-    PlatformInterface::DrawingDevice *beginFrame(const PlatformInterface::LayerEngine::ItemLayer *layer,
-                                                 const PlatformInterface::Rect &rect,
-                                                 int refreshInterval) override
-    {
-        QUL_UNUSED(rect);
+  PlatformInterface::DrawingDevice *
+  beginFrame(const PlatformInterface::LayerEngine::ItemLayer *layer,
+             const PlatformInterface::Rect &rect,
+             int refreshInterval) override {
+    QUL_UNUSED(rect);
 
-        return Private::beginFrame(layer, refreshInterval);
-    }
+    return Private::beginFrame(layer, refreshInterval);
+  }
 
-    void endFrame(const PlatformInterface::LayerEngine::ItemLayer *layer) override { Private::endFrame(layer); }
+  void
+  endFrame(const PlatformInterface::LayerEngine::ItemLayer *layer) override {
+    Private::endFrame(layer);
+  }
 
-    FrameStatistics presentFrame(const PlatformInterface::Screen *screen, const PlatformInterface::Rect &rect) override
-    {
-        QUL_UNUSED(screen);
-        QUL_UNUSED(rect);
+  FrameStatistics presentFrame(const PlatformInterface::Screen *screen,
+                               const PlatformInterface::Rect &rect) override {
+    QUL_UNUSED(screen);
+    QUL_UNUSED(rect);
 
-        return Private::presentFrame();
-    }
+    return Private::presentFrame();
+  }
 
-    static PlatformInterface::MemoryAllocator *preprocessAllocator() { return Private::preprocessAllocator(); }
+  static PlatformInterface::MemoryAllocator *preprocessAllocator() {
+    return Private::preprocessAllocator();
+  }
 
-    PlatformInterface::MemoryAllocator *memoryAllocator(PlatformInterface::MemoryAllocator::AllocationType type)
-    {
-        return Private::memoryAllocator(type);
-    }
+  PlatformInterface::MemoryAllocator *
+  memoryAllocator(PlatformInterface::MemoryAllocator::AllocationType type) {
+    return Private::memoryAllocator(type);
+  }
 
-    void consoleWrite(char character) override { Private::writeChar(character); }
+  void consoleWrite(char character) override { Private::writeChar(character); }
 
-    Platform::PerformanceMetrics *performanceMetrics(void) QUL_DECL_OVERRIDE
-    {
-        static Rt1170PerformanceMetrics metrics;
-        return &metrics;
-    }
+  Platform::PerformanceMetrics *performanceMetrics(void) QUL_DECL_OVERRIDE {
+    static Rt1170PerformanceMetrics metrics;
+    return &metrics;
+  }
 };
 
-PlatformContext *getPlatformInstance()
-{
-    static NxpRt1170Platform platform;
-    return &platform;
+PlatformContext *getPlatformInstance() {
+  static NxpRt1170Platform platform;
+  return &platform;
 }
 } // namespace Platform
 } // namespace Qul

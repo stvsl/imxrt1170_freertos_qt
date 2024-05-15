@@ -17,7 +17,7 @@
 #endif
 #ifndef QUL_ENABLE_HARDWARE_PERFORMANCE_LOGGING
 // Enable logging of hardware performance statistics, such as CPU usage.
-#define QUL_ENABLE_HARDWARE_PERFORMANCE_LOGGING
+// #define QUL_ENABLE_HARDWARE_PERFORMANCE_LOGGING
 #endif
 
 #ifndef QUL_COLOR_DEPTH

@@ -29,6 +29,10 @@
          </generated_project_files>
          <pins_profile>
             <processor_version>15.0.1</processor_version>
+            <external_user_signals>
+               <routingDetailsColumns/>
+               <properties/>
+            </external_user_signals>
             <power_domains/>
          </pins_profile>
          <functions_list>
@@ -272,7 +276,7 @@
                   <clock_output id="FLEXIO2_CLK_ROOT.outFreq" value="24 MHz" locked="false" accuracy=""/>
                   <clock_output id="FLEXSPI1_CLK_ROOT.outFreq" value="24 MHz" locked="false" accuracy=""/>
                   <clock_output id="FLEXSPI2_CLK_ROOT.outFreq" value="24 MHz" locked="false" accuracy=""/>
-                  <clock_output id="GC355_CLK_ROOT.outFreq" value="492.0000125 MHz" locked="false" accuracy=""/>
+                  <clock_output id="GC355_CLK_ROOT.outFreq" value="480 MHz" locked="false" accuracy=""/>
                   <clock_output id="GPT1_CLK_ROOT.outFreq" value="24 MHz" locked="false" accuracy=""/>
                   <clock_output id="GPT1_ipg_clk_highfreq.outFreq" value="24 MHz" locked="false" accuracy=""/>
                   <clock_output id="GPT2_CLK_ROOT.outFreq" value="24 MHz" locked="false" accuracy=""/>
@@ -313,7 +317,7 @@
                   <clock_output id="M4_CLK_ROOT.outFreq" value="4320/11 MHz" locked="false" accuracy=""/>
                   <clock_output id="M4_SYSTICK_CLK_ROOT.outFreq" value="24 MHz" locked="false" accuracy=""/>
                   <clock_output id="M7_CLK_ROOT.outFreq" value="996 MHz" locked="false" accuracy=""/>
-                  <clock_output id="M7_SYSTICK_CLK_ROOT.outFreq" value="100 kHz" locked="false" accuracy=""/>
+                  <clock_output id="M7_SYSTICK_CLK_ROOT.outFreq" value="1 MHz" locked="false" accuracy=""/>
                   <clock_output id="MIC_CLK_ROOT.outFreq" value="24 MHz" locked="false" accuracy=""/>
                   <clock_output id="MIPI_DSI_TX_CLK_ESC_ROOT.outFreq" value="24 MHz" locked="false" accuracy=""/>
                   <clock_output id="MIPI_ESC_CLK_ROOT.outFreq" value="24 MHz" locked="false" accuracy=""/>
@@ -326,7 +330,7 @@
                   <clock_output id="OSC_RC_400M.outFreq" value="400 MHz" locked="false" accuracy=""/>
                   <clock_output id="OSC_RC_48M.outFreq" value="48 MHz" locked="false" accuracy=""/>
                   <clock_output id="OSC_RC_48M_DIV2.outFreq" value="24 MHz" locked="false" accuracy=""/>
-                  <clock_output id="PLL_VIDEO_CLK.outFreq" value="984.000025 MHz" locked="false" accuracy=""/>
+                  <clock_output id="PLL_VIDEO_CLK.outFreq" value="960 MHz" locked="false" accuracy=""/>
                   <clock_output id="SAI1_CLK_ROOT.outFreq" value="24 MHz" locked="false" accuracy=""/>
                   <clock_output id="SAI1_MCLK1.outFreq" value="24 MHz" locked="false" accuracy=""/>
                   <clock_output id="SAI1_MCLK3.outFreq" value="24 MHz" locked="false" accuracy=""/>
@@ -360,14 +364,15 @@
                   <setting id="ANADIG_OSC_OSC_24M_CTRL_LP_EN_CFG" value="Low" locked="false"/>
                   <setting id="ANADIG_OSC_OSC_24M_CTRL_OSC_EN_CFG" value="Enabled" locked="false"/>
                   <setting id="ANADIG_PLL.PLL_AUDIO_BYPASS.sel" value="ANADIG_OSC.OSC_24M" locked="false"/>
-                  <setting id="ANADIG_PLL.PLL_VIDEO.denom" value="960000" locked="false"/>
-                  <setting id="ANADIG_PLL.PLL_VIDEO.div" value="41" locked="false"/>
-                  <setting id="ANADIG_PLL.PLL_VIDEO.num" value="1" locked="false"/>
+                  <setting id="ANADIG_PLL.PLL_VIDEO.denom" value="1" locked="false"/>
+                  <setting id="ANADIG_PLL.PLL_VIDEO.div" value="40" locked="false"/>
+                  <setting id="ANADIG_PLL.PLL_VIDEO.num" value="0" locked="false"/>
+                  <setting id="ANADIG_PLL.PLL_VIDEO_SS_DIV.scale" value="1" locked="false"/>
                   <setting id="ANADIG_PLL.SYS_PLL1_BYPASS.sel" value="ANADIG_OSC.OSC_24M" locked="false"/>
-                  <setting id="ANADIG_PLL.SYS_PLL2.denom" value="268435455" locked="false"/>
+                  <setting id="ANADIG_PLL.SYS_PLL2.denom" value="1" locked="false"/>
                   <setting id="ANADIG_PLL.SYS_PLL2.div" value="22" locked="false"/>
                   <setting id="ANADIG_PLL.SYS_PLL2.num" value="0" locked="false"/>
-                  <setting id="ANADIG_PLL.SYS_PLL2_SS_DIV.scale" value="268435455" locked="false"/>
+                  <setting id="ANADIG_PLL.SYS_PLL2_SS_DIV.scale" value="1" locked="false"/>
                   <setting id="ANADIG_PLL.SYS_PLL3_PFD3_DIV.scale" value="22" locked="true"/>
                   <setting id="ANADIG_PLL.SYS_PLL3_PFD3_MUL.scale" value="18" locked="true"/>
                   <setting id="ANADIG_PLL_ARM_PLL_CTRL_POWERUP_CFG" value="Enabled" locked="false"/>
@@ -394,7 +399,7 @@
                   <setting id="CCM.CLOCK_ROOT6.MUX.sel" value="ANADIG_PLL.SYS_PLL2_CLK" locked="false"/>
                   <setting id="CCM.CLOCK_ROOT68.DIV.scale" value="2" locked="false"/>
                   <setting id="CCM.CLOCK_ROOT68.MUX.sel" value="ANADIG_PLL.PLL_VIDEO_CLK" locked="false"/>
-                  <setting id="CCM.CLOCK_ROOT8.DIV.scale" value="240" locked="false"/>
+                  <setting id="CCM.CLOCK_ROOT8.DIV.scale" value="24" locked="false"/>
                </clock_settings>
                <called_from_default_init>true</called_from_default_init>
             </clock_configuration>
@@ -480,7 +485,7 @@
                   <clock_output id="FLEXIO2_CLK_ROOT.outFreq" value="24 MHz" locked="false" accuracy=""/>
                   <clock_output id="FLEXSPI1_CLK_ROOT.outFreq" value="24 MHz" locked="false" accuracy=""/>
                   <clock_output id="FLEXSPI2_CLK_ROOT.outFreq" value="24 MHz" locked="false" accuracy=""/>
-                  <clock_output id="GC355_CLK_ROOT.outFreq" value="492.0000125 MHz" locked="false" accuracy=""/>
+                  <clock_output id="GC355_CLK_ROOT.outFreq" value="480 MHz" locked="false" accuracy=""/>
                   <clock_output id="GPT1_CLK_ROOT.outFreq" value="24 MHz" locked="false" accuracy=""/>
                   <clock_output id="GPT1_ipg_clk_highfreq.outFreq" value="24 MHz" locked="false" accuracy=""/>
                   <clock_output id="GPT2_CLK_ROOT.outFreq" value="24 MHz" locked="false" accuracy=""/>
@@ -534,7 +539,7 @@
                   <clock_output id="OSC_RC_400M.outFreq" value="400 MHz" locked="false" accuracy=""/>
                   <clock_output id="OSC_RC_48M.outFreq" value="48 MHz" locked="false" accuracy=""/>
                   <clock_output id="OSC_RC_48M_DIV2.outFreq" value="24 MHz" locked="false" accuracy=""/>
-                  <clock_output id="PLL_VIDEO_CLK.outFreq" value="984.000025 MHz" locked="false" accuracy=""/>
+                  <clock_output id="PLL_VIDEO_CLK.outFreq" value="960 MHz" locked="false" accuracy=""/>
                   <clock_output id="SAI1_CLK_ROOT.outFreq" value="24 MHz" locked="false" accuracy=""/>
                   <clock_output id="SAI1_MCLK1.outFreq" value="24 MHz" locked="false" accuracy=""/>
                   <clock_output id="SAI1_MCLK3.outFreq" value="24 MHz" locked="false" accuracy=""/>
@@ -571,14 +576,15 @@
                   <setting id="ANADIG_PLL.ARM_PLL_PREDIV.scale" value="1" locked="true"/>
                   <setting id="ANADIG_PLL.ARM_PLL_VDIV.scale" value="133" locked="true"/>
                   <setting id="ANADIG_PLL.PLL_AUDIO_BYPASS.sel" value="ANADIG_OSC.OSC_24M" locked="false"/>
-                  <setting id="ANADIG_PLL.PLL_VIDEO.denom" value="960000" locked="false"/>
-                  <setting id="ANADIG_PLL.PLL_VIDEO.div" value="41" locked="false"/>
-                  <setting id="ANADIG_PLL.PLL_VIDEO.num" value="1" locked="false"/>
+                  <setting id="ANADIG_PLL.PLL_VIDEO.denom" value="1" locked="false"/>
+                  <setting id="ANADIG_PLL.PLL_VIDEO.div" value="40" locked="false"/>
+                  <setting id="ANADIG_PLL.PLL_VIDEO.num" value="0" locked="false"/>
+                  <setting id="ANADIG_PLL.PLL_VIDEO_SS_DIV.scale" value="1" locked="false"/>
                   <setting id="ANADIG_PLL.SYS_PLL1_BYPASS.sel" value="ANADIG_OSC.OSC_24M" locked="false"/>
-                  <setting id="ANADIG_PLL.SYS_PLL2.denom" value="268435455" locked="false"/>
+                  <setting id="ANADIG_PLL.SYS_PLL2.denom" value="1" locked="false"/>
                   <setting id="ANADIG_PLL.SYS_PLL2.div" value="22" locked="false"/>
                   <setting id="ANADIG_PLL.SYS_PLL2.num" value="0" locked="false"/>
-                  <setting id="ANADIG_PLL.SYS_PLL2_SS_DIV.scale" value="268435455" locked="false"/>
+                  <setting id="ANADIG_PLL.SYS_PLL2_SS_DIV.scale" value="1" locked="false"/>
                   <setting id="ANADIG_PLL.SYS_PLL3_PFD3_DIV.scale" value="22" locked="true"/>
                   <setting id="ANADIG_PLL.SYS_PLL3_PFD3_MUL.scale" value="18" locked="true"/>
                   <setting id="ANADIG_PLL_ARM_PLL_CTRL_POWERUP_CFG" value="Enabled" locked="false"/>

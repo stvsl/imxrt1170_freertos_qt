@@ -82,7 +82,7 @@ void BOARD_InitBootClocks(void);
 #define BOARD_BOOTCLOCKRUN_FLEXIO2_CLK_ROOT           24000000UL     /* Clock consumers of FLEXIO2_CLK_ROOT output : FLEXIO2 */
 #define BOARD_BOOTCLOCKRUN_FLEXSPI1_CLK_ROOT          24000000UL     /* Clock consumers of FLEXSPI1_CLK_ROOT output : FLEXSPI1 */
 #define BOARD_BOOTCLOCKRUN_FLEXSPI2_CLK_ROOT          24000000UL     /* Clock consumers of FLEXSPI2_CLK_ROOT output : FLEXSPI2 */
-#define BOARD_BOOTCLOCKRUN_GC355_CLK_ROOT             492000012UL    /* Clock consumers of GC355_CLK_ROOT output : N/A */
+#define BOARD_BOOTCLOCKRUN_GC355_CLK_ROOT             480000000UL    /* Clock consumers of GC355_CLK_ROOT output : N/A */
 #define BOARD_BOOTCLOCKRUN_GPT1_CLK_ROOT              24000000UL     /* Clock consumers of GPT1_CLK_ROOT output : GPT1 */
 #define BOARD_BOOTCLOCKRUN_GPT1_IPG_CLK_HIGHFREQ      24000000UL     /* Clock consumers of GPT1_ipg_clk_highfreq output : N/A */
 #define BOARD_BOOTCLOCKRUN_GPT2_CLK_ROOT              24000000UL     /* Clock consumers of GPT2_CLK_ROOT output : GPT2 */
@@ -123,7 +123,7 @@ void BOARD_InitBootClocks(void);
 #define BOARD_BOOTCLOCKRUN_M4_CLK_ROOT                392727272UL    /* Clock consumers of M4_CLK_ROOT output : ARM, DMA1, DMAMUX1, SSARC_HP, SSARC_LP, XRDC2_D0, XRDC2_D1 */
 #define BOARD_BOOTCLOCKRUN_M4_SYSTICK_CLK_ROOT        24000000UL     /* Clock consumers of M4_SYSTICK_CLK_ROOT output : N/A */
 #define BOARD_BOOTCLOCKRUN_M7_CLK_ROOT                996000000UL    /* Clock consumers of M7_CLK_ROOT output : ARM */
-#define BOARD_BOOTCLOCKRUN_M7_SYSTICK_CLK_ROOT        100000UL       /* Clock consumers of M7_SYSTICK_CLK_ROOT output : N/A */
+#define BOARD_BOOTCLOCKRUN_M7_SYSTICK_CLK_ROOT        1000000UL      /* Clock consumers of M7_SYSTICK_CLK_ROOT output : N/A */
 #define BOARD_BOOTCLOCKRUN_MIC_CLK_ROOT               24000000UL     /* Clock consumers of MIC_CLK_ROOT output : ASRC, PDM, SPDIF */
 #define BOARD_BOOTCLOCKRUN_MIPI_DSI_TX_CLK_ESC_ROOT   24000000UL     /* Clock consumers of MIPI_DSI_TX_CLK_ESC_ROOT output : N/A */
 #define BOARD_BOOTCLOCKRUN_MIPI_ESC_CLK_ROOT          24000000UL     /* Clock consumers of MIPI_ESC_CLK_ROOT output : DSI_HOST */
@@ -139,7 +139,7 @@ void BOARD_InitBootClocks(void);
 #define BOARD_BOOTCLOCKRUN_PLL_AUDIO_CLK              0UL            /* Clock consumers of PLL_AUDIO_CLK output : N/A */
 #define BOARD_BOOTCLOCKRUN_PLL_AUDIO_SS_MODULATION    0UL            /* Clock consumers of PLL_AUDIO_SS_MODULATION output : N/A */
 #define BOARD_BOOTCLOCKRUN_PLL_AUDIO_SS_RANGE         0UL            /* Clock consumers of PLL_AUDIO_SS_RANGE output : N/A */
-#define BOARD_BOOTCLOCKRUN_PLL_VIDEO_CLK              984000025UL    /* Clock consumers of PLL_VIDEO_CLK output : N/A */
+#define BOARD_BOOTCLOCKRUN_PLL_VIDEO_CLK              960000000UL    /* Clock consumers of PLL_VIDEO_CLK output : N/A */
 #define BOARD_BOOTCLOCKRUN_PLL_VIDEO_SS_MODULATION    0UL            /* Clock consumers of PLL_VIDEO_SS_MODULATION output : N/A */
 #define BOARD_BOOTCLOCKRUN_PLL_VIDEO_SS_RANGE         0UL            /* Clock consumers of PLL_VIDEO_SS_RANGE output : N/A */
 #define BOARD_BOOTCLOCKRUN_SAI1_CLK_ROOT              24000000UL     /* Clock consumers of SAI1_CLK_ROOT output : SPDIF */
@@ -252,7 +252,7 @@ void BOARD_BootClockRUN(void);
 #define BOARD_BOOTCLOCKRUN_800M_FLEXIO2_CLK_ROOT      24000000UL     /* Clock consumers of FLEXIO2_CLK_ROOT output : FLEXIO2 */
 #define BOARD_BOOTCLOCKRUN_800M_FLEXSPI1_CLK_ROOT     24000000UL     /* Clock consumers of FLEXSPI1_CLK_ROOT output : FLEXSPI1 */
 #define BOARD_BOOTCLOCKRUN_800M_FLEXSPI2_CLK_ROOT     24000000UL     /* Clock consumers of FLEXSPI2_CLK_ROOT output : FLEXSPI2 */
-#define BOARD_BOOTCLOCKRUN_800M_GC355_CLK_ROOT        492000012UL    /* Clock consumers of GC355_CLK_ROOT output : N/A */
+#define BOARD_BOOTCLOCKRUN_800M_GC355_CLK_ROOT        480000000UL    /* Clock consumers of GC355_CLK_ROOT output : N/A */
 #define BOARD_BOOTCLOCKRUN_800M_GPT1_CLK_ROOT         24000000UL     /* Clock consumers of GPT1_CLK_ROOT output : GPT1 */
 #define BOARD_BOOTCLOCKRUN_800M_GPT1_IPG_CLK_HIGHFREQ 24000000UL     /* Clock consumers of GPT1_ipg_clk_highfreq output : N/A */
 #define BOARD_BOOTCLOCKRUN_800M_GPT2_CLK_ROOT         24000000UL     /* Clock consumers of GPT2_CLK_ROOT output : GPT2 */
@@ -309,7 +309,7 @@ void BOARD_BootClockRUN(void);
 #define BOARD_BOOTCLOCKRUN_800M_PLL_AUDIO_CLK         0UL            /* Clock consumers of PLL_AUDIO_CLK output : N/A */
 #define BOARD_BOOTCLOCKRUN_800M_PLL_AUDIO_SS_MODULATION 0UL          /* Clock consumers of PLL_AUDIO_SS_MODULATION output : N/A */
 #define BOARD_BOOTCLOCKRUN_800M_PLL_AUDIO_SS_RANGE    0UL            /* Clock consumers of PLL_AUDIO_SS_RANGE output : N/A */
-#define BOARD_BOOTCLOCKRUN_800M_PLL_VIDEO_CLK         984000025UL    /* Clock consumers of PLL_VIDEO_CLK output : N/A */
+#define BOARD_BOOTCLOCKRUN_800M_PLL_VIDEO_CLK         960000000UL    /* Clock consumers of PLL_VIDEO_CLK output : N/A */
 #define BOARD_BOOTCLOCKRUN_800M_PLL_VIDEO_SS_MODULATION 0UL          /* Clock consumers of PLL_VIDEO_SS_MODULATION output : N/A */
 #define BOARD_BOOTCLOCKRUN_800M_PLL_VIDEO_SS_RANGE    0UL            /* Clock consumers of PLL_VIDEO_SS_RANGE output : N/A */
 #define BOARD_BOOTCLOCKRUN_800M_SAI1_CLK_ROOT         24000000UL     /* Clock consumers of SAI1_CLK_ROOT output : SPDIF */

@@ -1,0 +1,339 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"path" : "ide_overrides.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "release/CMakeFiles/3.29.3/CMakeSystem.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/tools/cmake_toolchain_files/armgcc.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/tools/cmake_toolchain_files/mcux_config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "release/CMakeFiles/3.29.3/CMakeASMCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Platform/Generic.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeASMInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/GNU-ASM.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "release/CMakeFiles/3.29.3/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "release/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Platform/Generic.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Platform/Generic.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"path" : "flags.cmake"
+		},
+		{
+			"path" : "config.cmake"
+		},
+		{
+			"path" : "qul.cmake"
+		},
+		{
+			"path" : "projectconfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/all_lib_device.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/CMSIS/Core/Include/CMSIS_Include_core_cm.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/components/lists/component_lists.MIMXRT1176.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/components/uart/component_lpuart_adapter.MIMXRT1176.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/components/serial_manager/component_serial_manager.MIMXRT1176.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/components/serial_manager/component_serial_manager_uart.MIMXRT1176.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/device_MIMXRT1176_CMSIS.MIMXRT1176.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/device_MIMXRT1176_startup.MIMXRT1176.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/device_MIMXRT1176_system.MIMXRT1176.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/driver_anatop_ai.MIMXRT1176.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/cm7/driver_cache_armv7_m7.MIMXRT1176.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/driver_clock.MIMXRT1176.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/driver_common.MIMXRT1176.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/components/video/display/dc/driver_dc-fb-common.MIMXRT1176.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/components/video/display/dc/lcdifv2/driver_dc-fb-lcdifv2.MIMXRT1176.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/driver_dcdc_soc.MIMXRT1176.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/components/video/display/driver_display-common.MIMXRT1176.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/components/video/display/hx8394/driver_display-hx8394.MIMXRT1176.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/components/video/display/mipi_dsi_cmd/driver_display-mipi-dsi-cmd.MIMXRT1176.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/components/video/display/rm68191/driver_display-rm68191.MIMXRT1176.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/components/video/display/rm68200/driver_display-rm68200.MIMXRT1176.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/components/gt911/driver_gt911.MIMXRT1176.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/driver_igpio.MIMXRT1176.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/driver_iomuxc.MIMXRT1176.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/driver_lcdifv2.MIMXRT1176.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/driver_lpi2c.MIMXRT1176.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/driver_lpi2c_freertos.MIMXRT1176.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/driver_lpuart.MIMXRT1176.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/driver_memory.MIMXRT1176.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/driver_mipi_dsi_split.MIMXRT1176.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/driver_pmu_1.MIMXRT1176.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/driver_soc_mipi_csi2rx.MIMXRT1176.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/driver_soc_mipi_dsi.MIMXRT1176.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/components/video/driver_video-common.MIMXRT1176.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/boards/evkmimxrt1170/xip/driver_xip_board_evkmimxrt1170.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/xip/driver_xip_device.MIMXRT1176.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/rtos/freertos/freertos-kernel/middleware_freertos-kernel.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/rtos/freertos/freertos-kernel/middleware_freertos-kernel_extension.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/rtos/freertos/freertos-kernel/middleware_freertos-kernel_heap_4.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/rtos/freertos/freertos-kernel/middleware_freertos-kernel_template.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/middleware_vglite.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/utilities/utilities_misc_utilities.MIMXRT1176.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/utilities/utility_assert.MIMXRT1176.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/utilities/utility_debug_console.MIMXRT1176.cmake"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/armgcc/release",
+		"source" : "/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/armgcc"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

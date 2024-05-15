@@ -12,6 +12,7 @@ package_id: MIMXRT1176DVMAA
 mcu_data: ksdk2_0
 processor_version: 15.0.1
 board: MIMXRT1170-EVK
+external_user_signals: {}
  * BE CAREFUL MODIFYING THIS COMMENT - IT IS YAML SETTINGS FOR TOOLS ***********
  */
 

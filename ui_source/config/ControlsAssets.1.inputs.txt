@@ -1,0 +1,9 @@
+/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/Button.qml
+/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/CheckBox.qml
+/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/DefaultStyle.qml
+/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/Dial.qml
+/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/ProgressBar.qml
+/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/RadioButton.qml
+/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/Slider.qml
+/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/SwipeView.qml
+/home/stvsl/Qt/QtMCUs/2.7.0/include/qul/Default/QtQuick/Controls/StyleDefault/Switch.qml
