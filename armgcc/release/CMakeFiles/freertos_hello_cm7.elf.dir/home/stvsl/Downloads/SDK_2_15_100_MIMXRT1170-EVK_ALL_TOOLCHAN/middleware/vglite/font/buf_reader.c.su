@@ -1,6 +1,0 @@
-/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/buf_reader.c:50:5:bufferred_fopen	0	static
-/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/buf_reader.c:68:5:bufferred_ftell	0	static
-/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/buf_reader.c:77:5:bufferred_fread	24	static
-/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/buf_reader.c:117:5:bufferred_fseek	8	static
-/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/buf_reader.c:153:5:bufferred_fclose	0	static
-/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/font/buf_reader.c:165:7:bufferred_fgets	20	static

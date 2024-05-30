@@ -1,5 +1,5 @@
-/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/rtos/freertos/freertos-kernel/tasks.c:3427:8:prvIdleTask	8	static
 /home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/rtos/freertos/freertos-kernel/tasks.c:5297:13:prvAddCurrentTaskToDelayedList	24	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/rtos/freertos/freertos-kernel/tasks.c:3427:8:prvIdleTask	16	static
 /home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/rtos/freertos/freertos-kernel/tasks.c:2720:12:xTaskIncrementTick.part.0	48	static
 /home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/rtos/freertos/freertos-kernel/tasks.c:2174:12:xTaskResumeAll.part.0	48	static
 /home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/rtos/freertos/freertos-kernel/tasks.c:721:16:xTaskCreate	32	static
@@ -40,6 +40,7 @@
 /home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/rtos/freertos/freertos-kernel/tasks.c:3597:10:vTaskSetThreadLocalStoragePointer	0	static
 /home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/rtos/freertos/freertos-kernel/tasks.c:3617:12:pvTaskGetThreadLocalStoragePointer	0	static
 /home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/rtos/freertos/freertos-kernel/tasks.c:3719:10:vTaskGetInfo	16	static
+/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/rtos/freertos/freertos-kernel/tasks.c:3918:17:uxTaskGetStackHighWaterMark	0	static
 /home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/rtos/freertos/freertos-kernel/tasks.c:4022:18:xTaskGetCurrentTaskHandle	0	static
 /home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/rtos/freertos/freertos-kernel/tasks.c:4039:16:xTaskGetSchedulerState	0	static
 /home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/rtos/freertos/freertos-kernel/tasks.c:4067:16:xTaskPriorityInherit	24	static

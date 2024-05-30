@@ -1,3 +1,0 @@
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/boards/nxp/mimxrt1170-evkb-freertos/platform_cache.cpp:37:27:std::pair<char*, char*> Qul::Platform::Private::preprocessCacheRange()	0	static
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/boards/nxp/mimxrt1170-evkb-freertos/platform_cache.cpp:50:8:size_t Qul::Platform::Private::preprocessCacheSize()	0	static
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/boards/nxp/mimxrt1170-evkb-freertos/platform_cache.cpp:56:6:void Qul::Platform::Private::cleanInvalidateDCacheByAddr(void*, int)	0	static

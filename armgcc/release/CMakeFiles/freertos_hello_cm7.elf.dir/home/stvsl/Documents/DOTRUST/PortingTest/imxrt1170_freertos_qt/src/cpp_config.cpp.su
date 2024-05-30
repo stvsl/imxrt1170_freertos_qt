@@ -1,8 +1,0 @@
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/src/cpp_config.cpp:23:7:void* operator new(size_t)	0	static
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/src/cpp_config.cpp:27:7:void* operator new [](size_t)	0	static
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/src/cpp_config.cpp:31:6:void operator delete(void*)	0	static
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/src/cpp_config.cpp:33:6:void operator delete [](void*)	0	static
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/src/cpp_config.cpp:35:16:int __aeabi_atexit(void*, void (*)(void*), void*)	0	static
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/src/cpp_config.cpp:41:18:void* malloc(size_t)	0	static
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/src/cpp_config.cpp:43:17:void free(void*)	0	static
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/src/cpp_config.cpp:58:6:void __gnu_cxx::__verbose_terminate_handler()	0	static

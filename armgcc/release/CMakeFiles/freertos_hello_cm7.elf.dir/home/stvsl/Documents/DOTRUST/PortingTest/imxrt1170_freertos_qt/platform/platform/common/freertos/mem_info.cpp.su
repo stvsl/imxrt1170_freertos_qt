@@ -1,4 +1,0 @@
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/common/freertos/mem_info.cpp:58:6:void Qul::Platform::Private::initMemUsageMeasurement()	0	static
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/common/freertos/mem_info.cpp:64:10:uint64_t Qul::Platform::Private::maxStackUsage()	0	static
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/common/freertos/mem_info.cpp:75:10:uint64_t Qul::Platform::Private::maxHeapUsage()	8	static
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/common/freertos/mem_info.cpp:80:6:void Qul::Platform::Private::updateMaxHeapUsage()	0	static

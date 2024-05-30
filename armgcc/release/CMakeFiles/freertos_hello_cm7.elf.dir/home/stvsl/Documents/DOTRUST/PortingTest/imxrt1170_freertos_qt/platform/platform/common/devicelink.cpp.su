@@ -1,5 +1,0 @@
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/common/devicelink.cpp:378:28:static Qul::Platform::DeviceLink* Qul::Platform::DeviceLink::instance()	0	static
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/common/devicelink.cpp:383:10:uint64_t Qul::Platform::DeviceLink::injectTouchEvent()	16	static
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/common/devicelink.cpp:389:6:void Qul::Platform::DeviceLink::init()	16	static
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/common/devicelink.cpp:395:6:void Qul::Platform::DeviceLink::charsReceived(const uint8_t*, int)	16	static
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/common/devicelink.cpp:403:6:void Qul::Platform::DeviceLink::printMessage(char*, int)	16	static

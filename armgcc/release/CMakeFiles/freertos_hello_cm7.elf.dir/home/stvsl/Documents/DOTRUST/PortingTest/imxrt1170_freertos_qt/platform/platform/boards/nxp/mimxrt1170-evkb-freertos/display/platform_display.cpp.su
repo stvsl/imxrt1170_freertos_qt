@@ -1,5 +1,0 @@
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/boards/nxp/mimxrt1170-evkb-freertos/display/platform_display.cpp:194:17:status_t Qul::Platform::Private::dsiTransfer(dsi_transfer_t*)	0	static
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/boards/nxp/mimxrt1170-evkb-freertos/display/platform_display.cpp:182:13:void Qul::Platform::Private::pullPowerPin(bool)	0	static
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/boards/nxp/mimxrt1170-evkb-freertos/display/platform_display.cpp:169:13:void Qul::Platform::Private::pullResetPin(bool)	0	static
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/boards/nxp/mimxrt1170-evkb-freertos/display/platform_display.cpp:447:6:void Qul::Platform::Private::prepareDisplayController()	120	static
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/boards/nxp/mimxrt1170-evkb-freertos/display/platform_display.cpp:468:28:Qul::PlatformInterface::Screen* Qul::Platform::Private::availableScreens(size_t*)	16	static

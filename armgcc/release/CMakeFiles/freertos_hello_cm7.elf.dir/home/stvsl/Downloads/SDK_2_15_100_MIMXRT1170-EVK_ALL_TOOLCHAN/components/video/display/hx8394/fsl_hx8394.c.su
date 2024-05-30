@@ -1,4 +1,0 @@
-/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/components/video/display/hx8394/fsl_hx8394.c:160:10:HX8394_Deinit	8	static
-/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/components/video/display/hx8394/fsl_hx8394.c:99:10:HX8394_Init	32	static
-/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/components/video/display/hx8394/fsl_hx8394.c:173:10:HX8394_Start	0	static
-/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/components/video/display/hx8394/fsl_hx8394.c:181:10:HX8394_Stop	0	static

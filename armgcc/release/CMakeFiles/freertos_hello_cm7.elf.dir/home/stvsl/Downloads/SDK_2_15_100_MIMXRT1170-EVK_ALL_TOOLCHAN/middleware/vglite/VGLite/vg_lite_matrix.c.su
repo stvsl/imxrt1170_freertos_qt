@@ -1,4 +1,0 @@
-/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/VGLite/vg_lite_matrix.c:35:6:vg_lite_identity	0	static
-/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/VGLite/vg_lite_matrix.c:69:6:vg_lite_translate	48	static
-/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/VGLite/vg_lite_matrix.c:81:6:vg_lite_scale	48	static
-/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/VGLite/vg_lite_matrix.c:93:6:vg_lite_rotate	56	static

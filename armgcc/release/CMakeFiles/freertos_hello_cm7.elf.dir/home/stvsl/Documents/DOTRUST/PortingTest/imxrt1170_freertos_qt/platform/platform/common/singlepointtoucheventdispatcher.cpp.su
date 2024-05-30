@@ -1,2 +1,0 @@
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/common/singlepointtoucheventdispatcher.cpp:133:1:Qul::Platform::SinglePointTouchEventDispatcher::SinglePointTouchEventDispatcher(Qul::PlatformInterface::Screen*)	0	static
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/common/singlepointtoucheventdispatcher.cpp:143:6:void Qul::Platform::SinglePointTouchEventDispatcher::dispatch(const Qul::Platform::SinglePointTouchEvent&)	56	static

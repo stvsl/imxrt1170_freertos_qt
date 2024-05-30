@@ -1,6 +1,0 @@
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/common/freertos/mem-freertos.cpp:41:6:void Qul::Platform::Private::FreeRtos::printHeapStats()	8	static
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/common/freertos/mem-freertos.cpp:50:6:void Qul::Platform::Private::FreeRtos::printStackStats()	8	static
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/common/freertos/mem-freertos.cpp:55:7:void* Qul::Platform::Private::FreeRtos::allocate(std::size_t)	8	static
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/common/freertos/mem-freertos.cpp:68:6:void Qul::Platform::Private::FreeRtos::deallocate(void*)	0	static
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/common/freertos/mem-freertos.cpp:75:7:void* Qul::Platform::Private::FreeRtos::reallocate(void*, size_t)	24	static
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/common/freertos/mem-freertos.cpp:99:8:size_t Qul::Platform::Private::FreeRtos::allocationSize(void*)	0	static

@@ -1,4 +1,4 @@
 /home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/./fsl_clock.h:2240:24:CLOCK_GetRootClockFreq.part.0	8	static
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/clock_config.c:275:6:BOARD_BootClockRUN	16	static
+/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/clock_config.c:273:6:BOARD_BootClockRUN	16	static
 /home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/clock_config.c:39:6:BOARD_InitBootClocks	0	static
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/clock_config.c:1091:6:BOARD_BootClockRUN_800M	16	static
+/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/clock_config.c:1089:6:BOARD_BootClockRUN_800M	16	static
