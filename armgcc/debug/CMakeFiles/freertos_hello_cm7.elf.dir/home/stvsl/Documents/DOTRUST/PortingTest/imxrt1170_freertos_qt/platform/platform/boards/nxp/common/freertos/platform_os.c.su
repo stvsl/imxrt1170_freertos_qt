@@ -1,7 +1,0 @@
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/boards/nxp/common/freertos/platform_os.c:108:39:Qul_DelayAtLeastUs.constprop	0	static
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/boards/nxp/common/freertos/platform_os.c:38:6:initSuspension	8	static
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/boards/nxp/common/freertos/platform_os.c:44:6:suspend	0	static
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/boards/nxp/common/freertos/platform_os.c:70:6:resume	0	static
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/boards/nxp/common/freertos/platform_os.c:92:28:vApplicationIdleHook	0	static
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/boards/nxp/common/freertos/platform_os.c:101:6:systick	8	static
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/platform/platform/boards/nxp/common/freertos/platform_os.c:113:6:qul_delayMs	16	static

@@ -1,45 +1,34 @@
-/home/stvsl/Qt/QtMCUs/2.7.1/src/core/timer.cpp:311:1:__ct_base .isra	8	static
-/home/stvsl/Qt/QtMCUs/2.7.1/src/graphics/layermanager.cpp:42:6:fillBasicProperties.constprop	32	static
-/home/stvsl/Qt/QtMCUs/2.7.1/src/graphics/rendertree.cpp:225:10:visit.constprop	96	static
-/home/stvsl/Qt/QtMCUs/2.7.1/src/text/texthtmlparser.cpp:61:6:matchesSequence.constprop	48	static
-/home/stvsl/Qt/QtMCUs/2.7.1/src/text/texthtmlparser.cpp:61:6:matchesSequence.constprop	48	static
-/home/stvsl/Qt/QtMCUs/2.7.1/src/core/memutil.cpp:66:6:memutil_aligned_free.constprop	12	static
-/home/stvsl/Qt/QtMCUs/2.7.1/src/3rdparty/lodepng/lodepng.cpp:4324:10:lodepng_inspect.constprop	40	static
-/home/stvsl/Qt/QtMCUs/2.7.1/src/core/memutil.cpp:39:19:memutil_aligned_alloc.constprop	48	static
-/home/stvsl/Qt/QtMCUs/2.7.1/src/platforminterface/printf.c:201:15:_out_rev.constprop	48	static
-/home/stvsl/Qt/QtMCUs/2.7.1/src/platforminterface/printf.c:230:15:_ntoa_format.constprop	36	static
-/home/stvsl/Qt/QtMCUs/2.7.1/src/platforminterface/printf.c:284:15:_ntoa_long.constprop	96	static
-/home/stvsl/Qt/QtMCUs/2.7.1/src/platforminterface/printf.c:472:15:_etoa.constprop	88	static
-/home/stvsl/Qt/QtMCUs/2.7.1/src/platforminterface/printf.c:341:15:_ftoa.constprop	96	static
-/home/stvsl/Qt/QtMCUs/2.7.1/src/graphics/rendertree.cpp:116:10:insertRecursive.constprop.isra	48	static
-/home/stvsl/Qt/QtMCUs/2.7.1/src/graphics/drawhelper.h:975:39:fetchTransformedBilinear_simple_scale_helper.constprop.isra	16480	static
-/home/stvsl/Qt/QtMCUs/2.7.1/src/3rdparty/freetype/ftgrays.c:1130:13:gray_render_conic.isra	296	static
-/home/stvsl/Qt/QtMCUs/2.7.1/src/3rdparty/freetype/ftgrays.c:1222:13:gray_render_cubic.isra	448	static
-/home/stvsl/Qt/QtMCUs/2.7.1/src/text/textelidehandler.cpp:51:1:__ct_base .isra	64	static
-/home/stvsl/Qt/QtMCUs/2.7.1/src/text/glyph.cpp:205:1:__ct_base .isra	4	static
-/home/stvsl/Qt/QtMCUs/2.7.1/src/text/textlayout.cpp:296:5:negativeRightBearing.isra	8	static
-/home/stvsl/Qt/QtMCUs/2.7.1/include/qul/private/text/glyph.h:245:7:__ct_base .isra	36	static
-/home/stvsl/Qt/QtMCUs/2.7.1/src/graphics/textcache.cpp:150:16:getOffsets.isra	28	static
-/home/stvsl/Qt/QtMCUs/2.7.1/src/core/staticscreenrotationhelpers.cpp:162:7:mapLayerCoordinatesToPhysicalScreen.isra	16	static
-/home/stvsl/Qt/QtMCUs/2.7.1/src/core/staticscreenrotationhelpers.cpp:120:7:mapItemCoordinatesToPhysicalScreen.isra	16	static
-/home/stvsl/Qt/QtMCUs/2.7.1/src/core/perf.cpp:218:1:__ct_base .isra	32	static
-<built-in>:_sub_I_65535_0	40	static
-<built-in>:_sub_D_65535_1	8	static
-/home/stvsl/Qt/QtMCUs/2.7.1/src/graphics/rendertree.cpp:582:6:render.constprop	112	static
-/home/stvsl/Qt/QtMCUs/2.7.1/src/platforminterface/error.cpp:123:6:error.constprop	24	static
-/home/stvsl/Qt/QtMCUs/2.7.1/src/platforminterface/gradient.cpp:55:6:generateGradientColorTable.constprop	96	static
-/home/stvsl/Qt/QtMCUs/2.7.1/src/graphics/vg_softwarerasterizer/freetyperasterizer.cpp:406:6:blendPath_impl.constprop	1232	static
-/home/stvsl/.mcuxpressotools/arm-gnu-toolchain-12.3.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/c++/12.3.1/bits/basic_string.tcc:217:7:_M_construct.constprop	24	static
-/home/stvsl/Qt/QtMCUs/2.7.1/src/text/glyph.cpp:275:1:__dt_base .isra	8	static
-/home/stvsl/Qt/QtMCUs/2.7.1/src/text/textengine.cpp:55:1:__ct_base .isra	16	static
-/home/stvsl/Qt/QtMCUs/2.7.1/src/platforminterface/error.cpp:123:6:error.constprop	24	static
-/home/stvsl/Qt/QtMCUs/2.7.1/src/controls/controltemplate.cpp:315:1:__ct_base .isra	24	static
-/home/stvsl/Qt/QtMCUs/2.7.1/src/controls/abstractbuttontemplate.cpp:184:1:__ct_base .isra	24	static
-/home/stvsl/Qt/QtMCUs/2.7.1/include/qul/property.h:648:10:setValueAndBypassBinding.isra	40	static
-/home/stvsl/Qt/QtMCUs/2.7.1/src/graphics/graphicsdevice.cpp:141:6:blit.constprop	48	static
-/home/stvsl/Qt/QtMCUs/2.7.1/src/graphics/graphicsdevice.cpp:505:6:blend.constprop	128	static
-/home/stvsl/Qt/QtMCUs/2.7.1/src/platforminterface/pathdatastroker.cpp:125:8:qt_curves_for_arc.constprop	288	static
-/home/stvsl/Qt/QtMCUs/2.7.1/src/platforminterface/pathdatastroker.cpp:822:6:joinPoints.constprop	264	static
-/home/stvsl/Qt/QtMCUs/2.7.1/src/platforminterface/pathdatastroker.cpp:596:6:processPathData.constprop	152	static
-/home/stvsl/Qt/QtMCUs/2.7.1/src/graphics/vg_softwarerasterizer/outlinemapper.h:220:18:transform.isra	24	static
-/home/stvsl/Qt/QtMCUs/2.7.1/src/platforminterface/transform.cpp:562:13:mapMinMax.isra	40	static
+/home/stvsl/Qt/QtMCUs/2.8.0/src/platforminterface/drawingengine.cpp:241:6:blendRect	28	static
+/home/stvsl/Qt/QtMCUs/2.8.0/src/platforminterface/drawingengine.cpp:301:6:blendAlphaMap	64	static
+/home/stvsl/Qt/QtMCUs/2.8.0/src/platforminterface/drawingengine.cpp:846:6:synchronizeForCpuAccess	0	static
+/home/stvsl/Qt/QtMCUs/2.8.0/src/platforminterface/drawingengine.cpp:903:6:setStrokeProperties	0	static
+/home/stvsl/Qt/QtMCUs/2.8.0/src/platforminterface/printf.c:144:20:_out_null	0	static
+/home/stvsl/Qt/QtMCUs/2.8.0/src/path/path.cpp:30:13:isSvgCommand	0	static
+/home/stvsl/Qt/QtMCUs/2.8.0/src/platforminterface/drawingengine.cpp:249:6:blendRoundedRect	216	static
+/home/stvsl/Qt/QtMCUs/2.8.0/src/platforminterface/drawingengine.cpp:445:6:blendRect	56	static
+/home/stvsl/Qt/QtMCUs/2.8.0/src/platforminterface/drawingengine.cpp:466:6:blendRoundedRect	224	static
+/home/stvsl/Qt/QtMCUs/2.8.0/src/platforminterface/drawingengine.cpp:545:6:blendAlphaMap	80	static
+/home/stvsl/Qt/QtMCUs/2.8.0/src/platforminterface/drawingengine.cpp:698:6:blendRect	24	static
+/home/stvsl/Qt/QtMCUs/2.8.0/src/platforminterface/drawingengine.cpp:737:6:blendImage	40	static
+/home/stvsl/Qt/QtMCUs/2.8.0/src/platforminterface/drawingengine.cpp:757:6:blendAlphaMap	40	static
+/home/stvsl/Qt/QtMCUs/2.8.0/src/path/path.cpp:79:20:getSvgControlElemCount	8	static
+/home/stvsl/Qt/QtMCUs/2.8.0/src/platforminterface/drawingengine.cpp:264:6:blendImage	96	static
+/home/stvsl/Qt/QtMCUs/2.8.0/src/platforminterface/drawingengine.cpp:486:6:blendImage	120	static
+/home/stvsl/Qt/QtMCUs/2.8.0/src/platforminterface/drawingengine.cpp:720:6:blendRoundedRect	48	static
+/home/stvsl/Qt/QtMCUs/2.8.0/src/platforminterface/drawingengine.cpp:874:22:allocatePath	16	static
+/home/stvsl/Qt/QtMCUs/2.8.0/src/platforminterface/drawingengine.cpp:1018:6:blendSimpleGradient	3280	static
+/home/stvsl/Qt/QtMCUs/2.8.0/src/platforminterface/drawingengine.cpp:936:6:blendPath	120	static
+/home/stvsl/Qt/QtMCUs/2.8.0/src/platforminterface/printf.c:151:20:_out_char	16	static
+/home/stvsl/Qt/QtMCUs/2.8.0/src/path/path.cpp:832:1:__dt_base 	8	static
+/home/stvsl/Qt/QtMCUs/2.8.0/src/path/path.cpp:832:1:__dt_del 	8	static
+/home/stvsl/Qt/QtMCUs/2.8.0/src/platforminterface/transform.cpp:334:12:rotate	32	static
+/home/stvsl/Qt/QtMCUs/2.8.0/src/platforminterface/transform.cpp:433:11:fromRotation	32	static
+/home/stvsl/Qt/QtMCUs/2.8.0/src/platforminterface/transform.cpp:492:11:inverted	40	static
+/home/stvsl/Qt/QtMCUs/2.8.0/src/platforminterface/transform.cpp:606:26:mapArbitrary	72	static
+/home/stvsl/Qt/QtMCUs/2.8.0/src/platforminterface/drawingengine.cpp:780:6:blendTransformedImage	72	static
+/home/stvsl/Qt/QtMCUs/2.8.0/src/platforminterface/drawingengine.cpp:817:6:blendTransformedAlphaMap	72	static
+/home/stvsl/Qt/QtMCUs/2.8.0/src/platforminterface/log.cpp:64:5:log	136	static
+/home/stvsl/Qt/QtMCUs/2.8.0/src/qulrcc/imageasset.cpp:39:6:copyTextureToRAM	32	static
+/home/stvsl/Qt/QtMCUs/2.8.0/src/path/path.cpp:161:49:pathElementToSegmentType	8	static
+/home/stvsl/Qt/QtMCUs/2.8.0/src/path/path.cpp:935:36:pathData	232	static
+/home/stvsl/Qt/QtMCUs/2.8.0/src/qulrcc/qulrcc_lookup.cpp:71:13:findImageForString	392	static

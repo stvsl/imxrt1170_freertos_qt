@@ -18,7 +18,7 @@
     "path": "/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN",
     "boardId": "evkmimxrt1170",
     "deviceId": "MIMXRT1176xxxxx",
-    "coreId": "cm7_MIMXRT1176xxxxx",
+    "coreId": "cm4_MIMXRT1176xxxxx",
     "manifestId": "SDK_2.x_MIMXRT1170-EVK"
   }
 }

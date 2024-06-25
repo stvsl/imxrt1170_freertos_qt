@@ -1,3 +1,7 @@
 platform
 ui_source
 .cache
+*.bak
+build
+armgcc/release
+armgcc/debug

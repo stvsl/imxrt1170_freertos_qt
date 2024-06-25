@@ -1,5 +1,0 @@
-/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/components/gt911/fsl_gt911.c:73:10:GT911_Init	224	static
-/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/components/gt911/fsl_gt911.c:197:10:GT911_Deinit	8	static
-/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/components/gt911/fsl_gt911.c:233:10:GT911_GetSingleTouch	48	static
-/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/components/gt911/fsl_gt911.c:262:10:GT911_GetMultiTouch	48	static
-/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/components/gt911/fsl_gt911.c:311:10:GT911_GetResolution	4	static

@@ -1,3 +1,0 @@
-/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/VGLite/vg_lite_flat.c:195:37:quad_bezier_flatten_params_init.constprop	72	static
-/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/VGLite/vg_lite_flat.c:246:1:_flatten_quad_bezier	136	static
-/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/middleware/vglite/VGLite/vg_lite_flat.c:422:1:_flatten_cubic_bezier	352	static

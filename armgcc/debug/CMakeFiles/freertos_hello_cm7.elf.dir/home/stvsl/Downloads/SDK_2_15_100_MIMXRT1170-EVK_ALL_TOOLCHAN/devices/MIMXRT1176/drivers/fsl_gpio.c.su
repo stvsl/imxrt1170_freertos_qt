@@ -1,4 +1,0 @@
-/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/fsl_gpio.c:115:6:GPIO_PinWrite.part.0	8	static
-/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/fsl_gpio.c:115:6:GPIO_PinWrite	8	static
-/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/fsl_gpio.c:144:6:GPIO_PinSetInterruptConfig	4	static
-/home/stvsl/Downloads/SDK_2_15_100_MIMXRT1170-EVK_ALL_TOOLCHAN/devices/MIMXRT1176/drivers/fsl_gpio.c:75:6:GPIO_PinInit	16	static

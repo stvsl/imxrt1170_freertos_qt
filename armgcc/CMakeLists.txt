@@ -47,7 +47,7 @@ set(SOURCE_DIR
     ${ProjDirPath}/../ui_source
 )
 
-set(QUL_LIB_TYPE "Debug")
+set(QUL_LIB_TYPE "Release")
 
 include(${ProjDirPath}/flags.cmake)
 include(${ProjDirPath}/config.cmake)
@@ -78,6 +78,7 @@ target_include_directories(${MCUX_SDK_PROJECT_NAME} PRIVATE
     ${ProjDirPath}/../platform/platform/boards/nxp/mimxrt1170-evkb-freertos
     ${ProjDirPath}/../platform/platform/boards/nxp/mimxrt1170-evkb-freertos/display
     ${ProjDirPath}/../ui_source
+    ${ProjDirPath}/../ui_source/src
 )
 
 set_source_files_properties("${ProjDirPath}/../src/FreeRTOSConfig.h" PROPERTIES COMPONENT_CONFIG_FILE "middleware_freertos-kernel_template")
@@ -85,7 +86,7 @@ set_source_files_properties("${ProjDirPath}/../src/FreeRTOSConfig.h" PROPERTIES 
 include(${SdkRootDirPath}/devices/MIMXRT1176/all_lib_device.cmake)
 
 IF(NOT DEFINED TARGET_LINK_SYSTEM_LIBRARIES)  
-    SET(TARGET_LINK_SYSTEM_LIBRARIES "-lm -lc -lgcc -lnosys")  
+    SET(TARGET_LINK_SYSTEM_LIBRARIES "-lm -lc -lgcc ")  
 ENDIF()  
 set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -Wl,--no-as-needed")
 TARGET_LINK_LIBRARIES(${MCUX_SDK_PROJECT_NAME} PRIVATE -Wl,--start-group)
@@ -110,19 +111,19 @@ ADD_CUSTOM_COMMAND(TARGET ${MCUX_SDK_PROJECT_NAME}
     COMMENT "Copying Compile Commands"
 )
 
-ADD_CUSTOM_COMMAND(TARGET ${MCUX_SDK_PROJECT_NAME}
-    POST_BUILD
-    COMMAND ${CMAKE_OBJCOPY} -Obinary ${EXECUTABLE_OUTPUT_PATH}/${MCUX_SDK_PROJECT_NAME} ${EXECUTABLE_OUTPUT_PATH}/freertos_hello.bin
-)
+# ADD_CUSTOM_COMMAND(TARGET ${MCUX_SDK_PROJECT_NAME}
+#     POST_BUILD
+#     COMMAND ${CMAKE_OBJCOPY} -Obinary ${EXECUTABLE_OUTPUT_PATH}/${MCUX_SDK_PROJECT_NAME} ${EXECUTABLE_OUTPUT_PATH}/freertos_hello.bin
+# )
 
-ADD_CUSTOM_COMMAND(TARGET ${MCUX_SDK_PROJECT_NAME}
-    POST_BUILD
-    COMMAND ${CMAKE_OBJCOPY} -O ihex ${EXECUTABLE_OUTPUT_PATH}/${MCUX_SDK_PROJECT_NAME} ${EXECUTABLE_OUTPUT_PATH}/freertos_hello.hex
-)
+# ADD_CUSTOM_COMMAND(TARGET ${MCUX_SDK_PROJECT_NAME}
+#     POST_BUILD
+#     COMMAND ${CMAKE_OBJCOPY} -O ihex ${EXECUTABLE_OUTPUT_PATH}/${MCUX_SDK_PROJECT_NAME} ${EXECUTABLE_OUTPUT_PATH}/freertos_hello.hex
+# )
 
-ADD_CUSTOM_COMMAND(TARGET ${MCUX_SDK_PROJECT_NAME}
-    POST_BUILD
-    COMMAND ${CMAKE_OBJCOPY} -O srec ${EXECUTABLE_OUTPUT_PATH}/${MCUX_SDK_PROJECT_NAME} ${EXECUTABLE_OUTPUT_PATH}/freertos_hello.srec
-)
+# ADD_CUSTOM_COMMAND(TARGET ${MCUX_SDK_PROJECT_NAME}
+#     POST_BUILD
+#     COMMAND ${CMAKE_OBJCOPY} -O srec ${EXECUTABLE_OUTPUT_PATH}/${MCUX_SDK_PROJECT_NAME} ${EXECUTABLE_OUTPUT_PATH}/freertos_hello.srec
+# )
 
 set_target_properties(${MCUX_SDK_PROJECT_NAME} PROPERTIES ADDITIONAL_CLEAN_FILES "output.map;${EXECUTABLE_OUTPUT_PATH}/freertos_hello.bin")

@@ -1,4 +1,0 @@
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/src/freertos_hello.cpp:32:13:void Qul_Thread(void*)	5888	static
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/src/freertos_hello.cpp:18:5:int main()	16	static
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/src/freertos_hello.cpp:61:6:void vApplicationStackOverflowHook(TaskHandle_t, signed char*)	8	static
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/src/freertos_hello.cpp:70:6:void vApplicationMallocFailedHook()	8	static

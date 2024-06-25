@@ -1,7 +1,6 @@
 CompileFlags:
   Remove: 
     - -mapcs
-    - -pp_file_not_found
     - -mno-direct-extern-access
     - -fconserve-stack
     - -fno-allow-store-data-races
@@ -12,8 +11,28 @@ CompileFlags:
     - -mskip-rax-setup
     - -mpreferred-stack-boundary=3
     - -mno-fp-ret-in-387
-  Add:
-    - -I
-    - /home/stvsl/.mcuxpressotools/arm-gnu-toolchain-12.3.rel1-x86_64-arm-none-eabi/redlib/include/
+  Add: 
+    - -mcpu=cortex-m7
+    - -mthumb
+    - -Wall
+    - -fno-common
+    - -ffunction-sections
+    - -fdata-sections
+    - -ffreestanding
+    - -fno-builtin
+    - -fno-rtti
+    - -fno-exceptions
+    - -mfloat-abi=hard
+    - -mfpu=fpv5-d16
+
 Diagnostics:
-  Suppress: unused-includes 
+  Suppress: 
+    - unused-includes
+    - pp_file_not_found
+    - init_conversion_failed
+    - no_member
+    - undeclared_var_use
+    - typename_nested_not_found
+    - no_member_template
+    - pp_hash_error
+    - unknown_typename

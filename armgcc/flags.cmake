@@ -9,7 +9,7 @@ ENDIF()
 IF(NOT DEFINED DEBUG_CONSOLE_CONFIG)  
     SET(DEBUG_CONSOLE_CONFIG "-DSDK_DEBUGCONSOLE=1")  
 ENDIF()  
-
+# -flto -fuse-linker-plugin \
 SET(CMAKE_ASM_FLAGS_DEBUG " \
     ${CMAKE_ASM_FLAGS_DEBUG} \
     -DDEBUG \
@@ -38,7 +38,7 @@ SET(CMAKE_C_FLAGS_DEBUG " \
     -DSERIAL_PORT_TYPE_UART=1 \
     -DSDK_OS_FREE_RTOS \
     -ggdb \
-    -O3 \
+    -Ofast \
     -mcpu=cortex-m7 \
     -Wall \
     -mthumb \
@@ -50,9 +50,11 @@ SET(CMAKE_C_FLAGS_DEBUG " \
     -ffreestanding \
     -fno-builtin \
     -mapcs \
-    -std=gnu17 \
+    -std=gnu99 \
+    -flto -ffat-lto-objects \
     ${FPU} \
     ${DEBUG_CONSOLE_CONFIG} \
+    
 ")
 SET(CMAKE_C_FLAGS_RELEASE " \
     ${CMAKE_C_FLAGS_RELEASE} \
@@ -62,7 +64,7 @@ SET(CMAKE_C_FLAGS_RELEASE " \
     -DMCUXPRESSO_SDK \
     -DSERIAL_PORT_TYPE_UART=1 \
     -DSDK_OS_FREE_RTOS \
-    -O3 \
+    -Ofast \
     -mcpu=cortex-m7 \
     -Wall \
     -mthumb \
@@ -74,20 +76,22 @@ SET(CMAKE_C_FLAGS_RELEASE " \
     -ffreestanding \
     -fno-builtin \
     -mapcs \
-    -std=gnu17 \
+    -std=gnu99 \
+    -flto -ffat-lto-objects \
     ${FPU} \
     ${DEBUG_CONSOLE_CONFIG} \
+    
 ")
 
 SET(CMAKE_CXX_FLAGS_DEBUG " \
-    -std=gnu++17 \
+    -std=gnu++14 \
     ${CMAKE_CXX_FLAGS_DEBUG} \
     -DDEBUG \
     -DCPU_MIMXRT1176DVMAA_cm7 \
     -DMCUXPRESSO_SDK \
     -DSERIAL_PORT_TYPE_UART=1 \
     -ggdb \
-    -O3 \
+    -Ofast \
     -mcpu=cortex-m7 \
     -Wall \
     -mthumb \
@@ -101,17 +105,19 @@ SET(CMAKE_CXX_FLAGS_DEBUG " \
     -mapcs \
     -fno-rtti \
     -fno-exceptions \
+    -flto -ffat-lto-objects \
     ${FPU} \
     ${DEBUG_CONSOLE_CONFIG} \
+    
 ")
 SET(CMAKE_CXX_FLAGS_RELEASE " \
-    -std=gnu++17 \
+    -std=gnu++14 \
     ${CMAKE_CXX_FLAGS_RELEASE} \
     -DNDEBUG \
     -DCPU_MIMXRT1176DVMAA_cm7 \
     -DMCUXPRESSO_SDK \
     -DSERIAL_PORT_TYPE_UART=1 \
-    -O3 \
+    -Ofast \
     -mcpu=cortex-m7 \
     -Wall \
     -mthumb \
@@ -125,8 +131,10 @@ SET(CMAKE_CXX_FLAGS_RELEASE " \
     -mapcs \
     -fno-rtti \
     -fno-exceptions \
+    -flto -ffat-lto-objects \
     ${FPU} \
     ${DEBUG_CONSOLE_CONFIG} \
+    
 ")
 
 
@@ -155,6 +163,8 @@ SET(CMAKE_EXE_LINKER_FLAGS_DEBUG " \
     -Wl,--print-memory-usage \
     -Xlinker \
     -cref \
+    -Xlinker \
+    -flto -ffat-lto-objects \
     ${FPU} \
     ${SPECS} \
     -T\"${ProjDirPath}/../platform/platform/boards/nxp/mimxrt1170-evkb-freertos/cmake/armgcc/MIMXRT1176xxxxx_cm7_flexspi_nor_sdram.ld\" -static \
@@ -183,6 +193,8 @@ SET(CMAKE_EXE_LINKER_FLAGS_RELEASE " \
     -Wl,--print-memory-usage \
     -Xlinker \
     -cref \
+    -Xlinker \
+    -flto -ffat-lto-objects \
     ${FPU} \
     ${SPECS} \
     -T\"${ProjDirPath}/../platform/platform/boards/nxp/mimxrt1170-evkb-freertos/cmake/armgcc/MIMXRT1176xxxxx_cm7_flexspi_nor_sdram.ld\" -static \

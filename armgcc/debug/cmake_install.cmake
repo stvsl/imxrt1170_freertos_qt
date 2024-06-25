@@ -1,8 +1,8 @@
-# Install script for directory: /home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/armgcc
+# Install script for directory: /home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt_git/armgcc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "PATH=/home/stvsl/Qt/6.6.2/gcc_64")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/armgcc/debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt_git/armgcc/debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

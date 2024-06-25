@@ -1,4 +1,0 @@
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/ui_source/QtQuick/Controls/StyleDefault/DefaultStyle.h:17:8:QtQuick::Controls::StyleDefault::DefaultStyle::~DefaultStyle()	24	static
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/ui_source/QtQuick/Controls/StyleDefault/DefaultStyle.cpp:50:1:QtQuick::Controls::StyleDefault::DefaultStyle::DefaultStyle()	64	static
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/ui_source/QtQuick/Controls/StyleDefault/DefaultStyle.cpp:66:15:static QtQuick::Controls::StyleDefault::DefaultStyle& QtQuick::Controls::StyleDefault::DefaultStyle::instance()	56	static
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/ui_source/QtQuick/Controls/StyleDefault/DefaultStyle.cpp:74:1:cpp)	4	static

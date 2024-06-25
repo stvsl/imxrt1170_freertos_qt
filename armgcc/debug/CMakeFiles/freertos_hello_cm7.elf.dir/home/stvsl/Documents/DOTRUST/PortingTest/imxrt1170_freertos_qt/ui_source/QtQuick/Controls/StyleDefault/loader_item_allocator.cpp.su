@@ -1,3 +1,0 @@
-/home/stvsl/Qt/QtMCUs/2.7.1/include/platform/platform.h:135:49:virtual Qul::PlatformInterface::MemoryAllocator* Qul::Platform::PlatformContext::memoryAllocator(Qul::PlatformInterface::MemoryAllocator::AllocationType)	0	static
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/ui_source/QtQuick/Controls/StyleDefault/loader_item_allocator.cpp:30:13:bool QtQuick::Controls::StyleDefault::loaderItemAppRelativePathCallback(const Qul::Private::String&, void*)	72	static
-/home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/ui_source/QtQuick/Controls/StyleDefault/loader_item_allocator.cpp:113:32:Qul::Private::Items::ItemBase* QtQuick::Controls::StyleDefault::loaderItemAllocator(const Qul::Private::String&, const Qul::Private::String&)	16	static

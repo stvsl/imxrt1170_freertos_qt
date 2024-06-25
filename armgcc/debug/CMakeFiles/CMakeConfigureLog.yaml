@@ -8,7 +8,7 @@ events:
       - "CMakeLists.txt:21 (ENABLE_LANGUAGE)"
     message: |
       The target system is: Generic -  - arm
-      The host system is: Linux - 6.9.2-zen1-1-zen - x86_64
+      The host system is: Linux - 6.9.6-zen1-1-zen - x86_64
   -
     kind: "message-v1"
     backtrace:
@@ -74,7 +74,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.su"
       
       The C compiler identification is GNU, found in:
-        /home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/armgcc/debug/CMakeFiles/3.29.3/CompilerIdC/CMakeCCompilerId.o
+        /home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt_git/armgcc/debug/CMakeFiles/3.29.6/CompilerIdC/CMakeCCompilerId.o
       
   -
     kind: "message-v1"
@@ -128,6 +128,6 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.su"
       
       The CXX compiler identification is GNU, found in:
-        /home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt/armgcc/debug/CMakeFiles/3.29.3/CompilerIdCXX/CMakeCXXCompilerId.o
+        /home/stvsl/Documents/DOTRUST/PortingTest/imxrt1170_freertos_qt_git/armgcc/debug/CMakeFiles/3.29.6/CompilerIdCXX/CMakeCXXCompilerId.o
       
 ...

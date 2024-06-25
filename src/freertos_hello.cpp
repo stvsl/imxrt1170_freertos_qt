@@ -1,4 +1,4 @@
-#include <MCUDemo.h>
+#include <MCUCluser.h>
 
 #include <qul/application.h>
 #include <qul/qul.h>
@@ -7,7 +7,6 @@
 #include <platforminterface/log.h>
 
 #include <FreeRTOS.h>
-#include <string.h>
 #include <string>
 #include <task.h>
 
@@ -32,7 +31,7 @@ int main() {
 static void Qul_Thread(void *argument) {
   (void)argument;
   Qul::Application _qul_app;
-  static struct ::MCUDemo _qul_item;
+  static struct ::MCUCluser _qul_item;
   _qul_app.setRootItem(&_qul_item);
 #ifdef APP_DEFAULT_UILANGUAGE
   _qul_app.settings().uiLanguage.setValue(APP_DEFAULT_UILANGUAGE);
