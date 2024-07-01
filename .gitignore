@@ -5,3 +5,4 @@ ui_source
 build
 armgcc/release
 armgcc/debug
+.VSCodeCounter

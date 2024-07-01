@@ -86,7 +86,7 @@ extern uint32_t SystemCoreClock;
 /* Memory allocation related definitions. */
 #define configSUPPORT_STATIC_ALLOCATION 0
 #define configSUPPORT_DYNAMIC_ALLOCATION 1
-#define configTOTAL_HEAP_SIZE ((size_t)(512 * 1024 * 15))
+#define configTOTAL_HEAP_SIZE ((size_t)(1024 * 1024 * 15))
 #define configAPPLICATION_ALLOCATED_HEAP 1
 
 /* Hook function related definitions. */
@@ -115,17 +115,17 @@ extern uint32_t SystemCoreClock;
 #define configTIMER_TASK_STACK_DEPTH (configMINIMAL_STACK_SIZE * 2)
 
 /* Define to trap errors during development. */
-#define configASSERT(x)                                                        \
-  if ((x) == 0) {                                                              \
-    taskDISABLE_INTERRUPTS();                                                  \
-    for (;;)                                                                   \
-      ;                                                                        \
+#define configASSERT(x)       \
+  if ((x) == 0) {             \
+    taskDISABLE_INTERRUPTS(); \
+    for (;;)                  \
+      ;                       \
   }
 
 /* Optional functions - most linkers will remove unused functions anyway. */
-#define INCLUDE_vTaskPrioritySet 1
-#define INCLUDE_uxTaskPriorityGet 1
-#define INCLUDE_vTaskDelete 1
+#define INCLUDE_vTaskPrioritySet 0
+#define INCLUDE_uxTaskPriorityGet 0
+#define INCLUDE_vTaskDelete 0
 #define INCLUDE_vTaskSuspend 1
 #define INCLUDE_vTaskDelayUntil 1
 #define INCLUDE_vTaskDelay 1
@@ -135,7 +135,7 @@ extern uint32_t SystemCoreClock;
 #define INCLUDE_xTaskGetIdleTaskHandle 0
 #define INCLUDE_eTaskGetState 0
 #define INCLUDE_xTimerPendFunctionCall 1
-#define INCLUDE_xTaskAbortDelay 1
+#define INCLUDE_xTaskAbortDelay 0
 #define INCLUDE_xTaskGetHandle 0
 #define INCLUDE_xTaskResumeFromISR 1
 
@@ -159,11 +159,11 @@ PRIORITY THAN THIS! (higher priorities are lower numeric values. */
 
 /* Interrupt priorities used by the kernel port layer itself.  These are generic
 to all Cortex-M ports, and do not rely on any particular library functions. */
-#define configKERNEL_INTERRUPT_PRIORITY                                        \
+#define configKERNEL_INTERRUPT_PRIORITY \
   (configLIBRARY_LOWEST_INTERRUPT_PRIORITY << (8 - configPRIO_BITS))
 /* !!!! configMAX_SYSCALL_INTERRUPT_PRIORITY must not be set to zero !!!!
 See http://www.FreeRTOS.org/RTOS-Cortex-M3-M4.html. */
-#define configMAX_SYSCALL_INTERRUPT_PRIORITY                                   \
+#define configMAX_SYSCALL_INTERRUPT_PRIORITY \
   (configLIBRARY_MAX_SYSCALL_INTERRUPT_PRIORITY << (8 - configPRIO_BITS))
 
 /* Definitions that map the FreeRTOS port interrupt handlers to their CMSIS

@@ -36,3 +36,4 @@ Diagnostics:
     - no_member_template
     - pp_hash_error
     - unknown_typename
+    - implicit-function-declaration
